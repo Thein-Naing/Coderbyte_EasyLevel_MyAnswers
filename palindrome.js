@@ -1,4 +1,4 @@
- let letters = []; //1.define an empty array to store each letter.
+ let letters = []; //1.define an empty array to store each letter of word.
  let word = "racecar"; //2.declare given word to check.
  let reverseWord = '';  //3.define reverseWord variable as a empty string initially.
 
