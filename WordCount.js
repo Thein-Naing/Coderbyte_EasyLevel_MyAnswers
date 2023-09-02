@@ -22,6 +22,7 @@ function WordCount(str) {
 
   const words = str.match(/\S+/g);
   // return words.length;
+  return words.length;
 
   //###5. Or more cleaner code
    return str.match(/\S+/g).length;
