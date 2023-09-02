@@ -5,8 +5,8 @@
 
 //4.loop through given word 
  for (let i = 0; i < word.length; i++) {
-//5. add each letter of word into letters array. // letters.push(word[i]);
-//6. Again take out each letter of word in reverse order and add into letters array. // reverseWord = reverseWord + letters.pop(); 
+//5. Then add each letter of word into letters array. // letters.push(word[i]);
+//6. take out each letter of word in reverse order and add into letters array. // reverseWord = reverseWord + letters.pop(); 
  reverseWord += letters.pop(letters.push(word[i])); //7. reverseWord = reverseWord + letters.pop(letters.push(word[i]));
  }
  
