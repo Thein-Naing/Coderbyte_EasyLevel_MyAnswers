@@ -1,5 +1,4 @@
 Palindrome
-HIDE QUESTION
 Have the function Palindrome(str) take the str parameter being passed and 
  return the string true if the parameter is a palindrome, 
  (the string is the same forward as it is backward) otherwise return the string false. 
@@ -7,9 +6,24 @@ Have the function Palindrome(str) take the str parameter being passed and
  Punctuation and numbers will not be part of the string.
  Difficulty Level : Easy
 
+# Method I like
+function Palindrome(str) { 
+
+  // code goes here  
+  //1. split the str into letters of word and join back and convert to lower case .
+  str = str.split("").join("").toLowerCase();
+  //2. create reverseStr, split the converted lower case str,reverse and join back.
+  reverseStr = str.split("").reverse().join("");
+  //3. return reverseStr === str;
+  return reverseStr === str;
+}
+   // keep this function call here 
+console.log(Palindrome(readline()));
 
 
 
+
+#Longer Method
 let letters = []; //1.define an empty array to store each letter of given word.
  let word = "racecar"; //2.declare given word to check.
  let reverseWord = '';  //3.define reverseWord variable as a empty string initially.
@@ -24,4 +38,6 @@ let letters = []; //1.define an empty array to store each letter of given word.
  
 //8. Use ternary operator to check result of reverseWord is equal to word.
   reverseWord === word ?  console.log(word + ' is a palindrome') : console.log( word + ' is not a palindrome');
+
+
 
