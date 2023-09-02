@@ -19,14 +19,5 @@ function Palindrome(str) {
 console.log(Palindrome(readline()));
 
 
- # OR you can skip one step;
-
-function Palindrome(str) { 
-   str = str.split("").join("").toLowerCase();
-return reverseStr = str.split("").reverse().join("");
-}
-console.log(Palindrome(readline()));
-
-
 
 
