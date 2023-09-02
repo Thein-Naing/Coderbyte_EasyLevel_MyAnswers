@@ -10,6 +10,6 @@
  reverseWord += letters.pop(letters.push(word[i])); //7. reverseWord = reverseWord + letters.pop(letters.push(word[i]));
  }
  
-
+//8. Use ternary operator to check result of reverseWord is equal to word.
   reverseWord === word ?  console.log(word + ' is a palindrome') : console.log( word + ' is not a palindrome');
 
