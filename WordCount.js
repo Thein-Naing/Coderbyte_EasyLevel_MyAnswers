@@ -10,7 +10,7 @@ function WordCount(str) {
   //1. trim the string . you can  leave this step also.
    str = str.trim();
   
-   /*2. remove the space from string. use /\S+/g for better perfomance
+   /*2. remove the white space from string. use /\S+/g for better perfomance
    \S+ replace chunk of white space */     
 
   const words = str.match(/\S+/g);
