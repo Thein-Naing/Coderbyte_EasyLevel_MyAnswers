@@ -1,3 +1,3 @@
 # Coderbyte_MyAnswers
 
-`This is my answeers for coderbyte challenge codes.`
+`This is my answers for coderbyte challenge codes.`
