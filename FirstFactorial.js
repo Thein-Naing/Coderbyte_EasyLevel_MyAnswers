@@ -20,10 +20,10 @@ FirstFactorial(readline());
 
 function FirstFactorial(num) { 
   // code goes here  
-
+    let const arr = [0, 1]  // 1. define initial arr with total = 1 * 1
     let total = 1;
-    for ( let i = 2;  i<= num; i++) {
-      total *= i;
+    for ( let i = 2;  i<= num; i++) { // 2. loop start from i = 2 because we already declared arr = [0, 1]
+      total *= i;  //3. total = total * i
     }
 
  return total; 
