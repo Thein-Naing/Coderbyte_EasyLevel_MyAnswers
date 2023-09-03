@@ -1,6 +1,6 @@
 # Coderbyte_MyAnswers
 
-`This is my answers for coderbyte challenge easy level codes. All challenges took me beyond 30 minutes to a couple of hours to solve and understand.
+`This is my answers for coderbyte challenge easy level codes. All challenges took me beyond 30 minutes to a couple of hours and sometimes a few days to solve and understand.
 I will upload medium level challenge solutions sooner or later `
 
 `1.palindrome(another answer)`
