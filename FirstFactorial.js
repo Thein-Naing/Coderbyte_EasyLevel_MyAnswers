@@ -13,7 +13,8 @@ function FirstFactorial(num) {
   //3. Use ternary operator
 return ( num === 1 ? 1 :  num * FirstFactorial(num -1)); 
 }
-FirstFactorial(readline());
+
+console.log(FirstFactorial(readline());
 
 
 /*### Other solution */
