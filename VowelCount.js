@@ -22,7 +22,10 @@ console.log(VowelCount(readline()));
 const vowels = ["a", "e", "i", "o", "u"]
 
 function  VowelCount(str) {
-    //1.initialize count
+      
+    //1.Define vowels and initialize count
+  
+const vowels = ["a", "e", "i", "o", "u"]
     let count = 0;
 
     // 2.loop through string to test if each character is a vowel
