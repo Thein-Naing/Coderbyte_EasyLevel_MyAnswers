@@ -8,8 +8,8 @@ the input will always be an integer. */
 
 
 function FirstFactorial(num) { 
-  //1.  let num === 1 initially; it will return sum =  1 * 1 = 1 => 1 * FirstFactorial(n)
-  //2.  let num === 2 ; then sum = 2 * (2-1) = 2 => n * FirstFactorial(n-1)
+  //1.  let num === 1 initially; it will return sum =  1 * fac(1) =>  1 * 1 = 1  => 1 * FirstFactorial(n)
+  //2.  let num === 3 ; then sum = 3 * fac(3-2) = 3 * 2 * 1 = 6  => n * FirstFactorial(n-2) and so on...
   //3. Use ternary operator
 return ( num === 1 ? 1 :  num * FirstFactorial(num -1)); 
 }
