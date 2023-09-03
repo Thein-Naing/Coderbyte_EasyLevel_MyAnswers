@@ -14,3 +14,20 @@ function FirstFactorial(num) {
 return ( num === 1 ? 1 :  num * FirstFactorial(num -1)); 
 }
 FirstFactorial(readline());
+
+
+### Other solution
+
+function FirstFactorial(num) { 
+  // code goes here  
+
+    let total = 1;
+    for ( let i = 2;  i<= num; i++) {
+      total *= i;
+    }
+
+ return total; 
+}
+   
+// keep this function call here 
+console.log(FirstFactorial(readline()));
