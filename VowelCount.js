@@ -15,3 +15,26 @@ function VowelCount(str) {
    
 // keep this function call here 
 console.log(VowelCount(readline()));
+
+
+//### Another method using for loop.
+
+const vowels = ["a", "e", "i", "o", "u"]
+
+function  VowelCount(str) {
+    //1.initialize count
+    let count = 0;
+
+    // 2.loop through string to test if each character is a vowel
+    for (let letter of str.toLowerCase()) {
+        if (vowels.includes(letter)) {
+            count++;
+        }
+    }
+
+    // 3.return number of vowels
+    return count
+}
+
+// keep this function call here 
+console.log(VowelCount(readline()))
