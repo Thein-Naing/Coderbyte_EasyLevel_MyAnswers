@@ -32,7 +32,7 @@ The index of the last character is string length - 1 */
   //3. create str2 using regex replace method by replacing "z" with "a" from str1.
   str2 = str1.replace(/z/gi,"a");
 
-  //4. then create str3 using regex replace method by replacing vowels by a function call with returning returning UpperCase vowels from str2.
+  //4. then create str3 using regex replace method by replacing vowels by a function call with returning UpperCase vowels from str2.
   str3 = str2.replace(/a|e|i|o|u/gi, function(a){return a.toUpperCase()});
 
   //5.return str3;
