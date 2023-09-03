@@ -7,7 +7,7 @@ function LetterCapitalize(str) {
 // code goes here  
   
   /*1.split the given string into an array of strings and
-     make one space between double quoations whenever a blank space is encountered */
+     make one space between double quoations marks whenever a blank space is encountered */
   
   let words = str.split(" "); 
 
@@ -21,7 +21,7 @@ To extract characters from the end of the string, use a negative start position.
   for (let i = 0; i < words.length; i++) {
     words[i] = words[i][0].toUpperCase() + words[i].substr(1)
   }
- //3. Join back words with one space between double quoations for breaking between words.
+ //3. Join back words with one space between double quoations marks for breaking between words.
 
   return words.join(" "); 
 }
