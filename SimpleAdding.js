@@ -21,3 +21,7 @@ function SimpleAdding(num) {
    
 // keep this function call here 
 console.log(SimpleAdding(readline()));
+
+
+
+  
