@@ -10,7 +10,7 @@ function SimpleAdding(num) {
 
   let numbers = 0;
 
-  //2. use for loop and loop through each element and take note here i < num + 1 === or i <= num
+  //2. use for loop and loop through each element and take note here i < num + 1 or i <= num
  for ( let i = 0; i <= num; i++) {
 
   numbers += i;  //3. numbers = numbers + i
