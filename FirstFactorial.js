@@ -16,7 +16,7 @@ return ( num === 1 ? 1 :  num * FirstFactorial(num -1));
 FirstFactorial(readline());
 
 
-### Other solution
+/*### Other solution */
 
 function FirstFactorial(num) { 
   // code goes here  
