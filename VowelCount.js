@@ -19,8 +19,6 @@ console.log(VowelCount(readline()));
 
 //### Another method using for loop.
 
-const vowels = ["a", "e", "i", "o", "u"]
-
 function  VowelCount(str) {
       
     //1.Define vowels and initialize count
