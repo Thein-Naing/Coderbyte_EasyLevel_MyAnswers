@@ -11,8 +11,10 @@ Output: gvO Ujnft! */
 function LetterChanges(str) { 
 
   // code goes here 
-  /*1. define a str1 by using regex replace method with two argument: (1) regex for charCode a to y  with global flag g and i & (2) function with argument(a) which return
-  replacing "a" letter in the string with the letter following it in the alphabet by using String.fromCharCode method and charCodrAt method..
+  /*1. define a str1 by using regex replace method with two argument: (1) regex for charCode a to y 
+  with global flag g and i & (2) function with argument(a) which return  
+  replacing "a" letter in the string with the letter following it in the alphabet 
+  by using String.fromCharCode method and charCodrAt method...
 
 The String.fromCharCode() method converts Unicode values to characters.
 The String.fromCharCode() is a static method of the String object.
