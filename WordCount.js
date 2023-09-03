@@ -19,13 +19,9 @@ function WordCount(str) {
   return words.length;
 
   
-  //###4. A bit cleaner code
+ 
 
-  const words = str.match(/\S+/g);
-  // return words.length;
-  return words.length;
-
-  //###5. Or more cleaner code
+  //###4. Or more cleaner code
    return str.match(/\S+/g).length;
 }
    
