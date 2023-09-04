@@ -1,6 +1,6 @@
 # Coderbyte_EasyLevel_MySolutions
 
-`I have officially bought and subscribed one year for coderbyte account.This is just my answers for coderbyte challenge easy level codes. All challenges took me beyond 30 minutes to a couple of hours and sometimes a few days to solve and understand.  Please take note you can use any programming languages to solve these challenges and feel free to use any methods as you like and no need to same as my answers.
+`This is just my answers for coderbyte challenge easy level codes from my coderbyte account. All challenges took me beyond 30 minutes to a couple of hours and sometimes a few days to solve and understand.  Please take note you can use any programming languages to solve these challenges and feel free to use any methods as you like and no need to same as my answers.
 This is just information sharing for whom visited to my github page.
  `
 
