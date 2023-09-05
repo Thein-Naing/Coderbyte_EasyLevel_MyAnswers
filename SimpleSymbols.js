@@ -14,14 +14,14 @@ function SimpleSymbols(str) {
   //1. loop through index of i from i = 0.
    for (let i = 0; i < str.length; i++) {
   
-
-  //2. use reges str.match to match all characters from a to z with flag global and flag i.
+  /* 2. declare if statement and use reges str.match to match all characters from a to z with 
+  flag g:(to perform a global search) and flag:i(to ignore upper case & lower case).*/
   if (str[i].match(/[a-z]/gi)) {
 
- //3. use another if statement for sorrounding with "+" sign. use && operator for backward and forward cases.
-  if (str[i+1] === "+"  && str[i-1] === "+") {
-
-    //4. return true otherwise return false.
+   //3. use another if statement for surrounding with "+" sign. 
+  if (str[i+1] === "+"  && str[i-1] === "+") {  //3A. use && operator for backward and forward cases of str[i] are same; meaning: both are "+" sign.
+ 
+  //4. then return true otherwise return false.
   return true; 
 
       } else {
