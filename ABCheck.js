@@ -15,7 +15,7 @@ function ABCheck(str) {
       and so .{3} === three characters
       g flag for global search
       i flag for ingoring lower case and upper case
-      finally we end up with /a.{3}b/gi and b.{3}a/gi
+      finally we end up with /a.{3}b/gi and /b.{3}a/gi
   //3. then return it by using ternary operator for true and false */
   
     if ((str.match(/a.{3}b/gi)) || (str.match(/b.{3}a/gi))) {
