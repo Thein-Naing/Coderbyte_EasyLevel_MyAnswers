@@ -42,7 +42,7 @@ function ThreeSum(arr) {
 }
 
 // keep this function call here 
-console.log(ThreeSum(readline()));
+console.log(ThreeSum(readline()));  //true.
 
 //5 . for different VS code, replace 'readline' with actual array.
-console.log(ThreeSum([8, 2, 1, 4, 10, 5, -1, -1] ));
+console.log(ThreeSum([8, 2, 1, 4, 10, 5, -1, -1] )); // true.
