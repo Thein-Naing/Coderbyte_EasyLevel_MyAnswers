@@ -10,7 +10,7 @@ function ExOh(str) {
 
   // code goes here  
   
-  //1. find the quantity of "x" in string by spliting "x" only in str.
+  //1. use regex to find the quantity of "x" in string by spliting "x" only in str.
   //2. then find the quantity of "o" in string by spliting "o" only in str.
   /*3. then return by assuming above two results are equal 
   and if yes outcome will true otherwise false. */
