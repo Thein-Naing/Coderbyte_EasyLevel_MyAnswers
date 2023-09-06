@@ -13,10 +13,10 @@ function TwoSum(arr) {
 
   // code goes here  
 
-  let stack = []; /*1. create an empty array to store results pair of elements 
+  let stack = []; /*1. create an empty array to store results pair of numbers 
      which are sum up to first element in given array. */
    
-    /* 2. This will be nested loop because  we have to check two numbers and compare to firsr element.
+    /* 2. This will be nested loop because  we have to check two numbers and compare their sum to firsr element.
      first, loop through each number in array except first element.*/
 
   for (let i = 1; i < arr.length; i++) { 
@@ -35,8 +35,8 @@ function TwoSum(arr) {
   }
 
   /* 5.return all pairs of numbers that sum to first element
-   by using ternary operator and .length method 
-   If there are no two numbers that sum to the first element in the array, return -1*/
+   by using ternary operator and .length method. If there are no two numbers 
+   that sum to the first element in the array, return -1*/
   
   return stack.length > 0 ? stack.join(' ') : -1; //6.
 }
