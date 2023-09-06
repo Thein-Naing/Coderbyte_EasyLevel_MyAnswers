@@ -21,7 +21,7 @@ function TwoSum(arr) {
 
   for (let i = 1; i < arr.length; i++) { 
 
-  // 3. loop through each other numbers except first element and i.
+  // 3. loop through each other numbers except first element.
     for (let j = i + 1; j < arr.length; j++) {
 
   /* 4. check if sum of these two numbers equal to first element.
