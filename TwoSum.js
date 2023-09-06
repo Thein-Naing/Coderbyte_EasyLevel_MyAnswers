@@ -42,4 +42,8 @@ function TwoSum(arr) {
 }
      
 // keep this function call here 
-console.log(TwoSum(readline()));
+console.log(TwoSum(readline()));  // 5,2 -4,11
+
+/* 7. for other VS code format,  replace readline with actual array.
+// keep this function call here 
+console.log(TwoSum([7, 3, 5, 2, -4, 8, 11]));  */
