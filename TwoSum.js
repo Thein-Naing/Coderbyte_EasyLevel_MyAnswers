@@ -36,7 +36,7 @@ function TwoSum(arr) {
 
   /* 5.return all pairs of numbers that sum to first element
    by using ternary operator and .length method.
-   /* 6. If there are no two numbers that sum to the first element in the array, return -1 */*/
+   /* 6. If there are no two numbers that sum to the first element in the array, return -1 */
   
   return stack.length > 0 ? stack.join(' ') : -1; 
 }
