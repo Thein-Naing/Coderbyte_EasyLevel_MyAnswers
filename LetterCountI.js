@@ -31,7 +31,7 @@ let words = str.split(" ");  //1. convert given str to words.
 
        for(let k=0; k < word.length; k++) {//5.loop through word with index k and pass the another letter.
       
-       /* 6A.letter being pased in work[k] is not literally the same as letter being pasedin work[j]  
+       /* 6A. letter being passed in work[k] is not literally the same as letter being passed in work[j]  
        6B.and so no words with repeating letters */
          
            if( k !== j && letter === word[k] && result === -1) {
