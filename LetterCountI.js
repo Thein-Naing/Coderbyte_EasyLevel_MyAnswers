@@ -22,13 +22,13 @@ let words = str.split(" ");  //1. convert given str to words.
    let count = 0;   // 2A. initial state of count for repeated letter shall be "zero".
    let result = -1; // 2B. assuming there are no words with repeating letters (it is given statement from question).
  
-   for(let i=0; i < words.length; i++) {//3. loop through words with index i and extract the word with index i of words..
-     let word= words[i];
+   for(let i = 0; i < words.length; i++) {//3. loop through words with index i and extract the word with index i of words..
+     let word = words[i];
 
-     for( let j=0; j< word.length; j++) {//4.loop through word with index j and pass the letter.
+     for( let j = 0; j < word.length; j++) {//4.loop through word with index j and pass the letter.
        let letter = word[j];
 
-       for(let k=0; k < word.length; k++) {//5.loop through word with index k and pass the another letter.
+       for(let k = 0; k < word.length; k++) {//5.loop through word with index k and pass the another letter.
       
        /* 6A. letter being passed in work[k] is not literally the same as letter being passed in work[j]  
        6B.and so no words with repeating letters */
