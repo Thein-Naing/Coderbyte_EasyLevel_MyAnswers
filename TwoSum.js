@@ -13,7 +13,7 @@ function TwoSum(arr) {
 
   // code goes here  
 
-  let stack = []; /*1. create an empty array to store results pair of numbers 
+  let stack = []; /*1. create an empty array to store results: pair of numbers 
      which are sum up to first element in given array. */
    
     /* 2. This will be nested loop because  we have to check two numbers and compare their sum to firsr element.
