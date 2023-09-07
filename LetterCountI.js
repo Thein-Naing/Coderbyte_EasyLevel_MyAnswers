@@ -17,6 +17,7 @@ Output: -1*/
                      then it could be slightly better for clean code.*/
 
 
+function LetterCountI(str) { 
 
 let words = str.split(" ");  //1. convert given str to words.
    let count = 0;   // 2A. initial state of count shall be "zero".
