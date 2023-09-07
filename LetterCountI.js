@@ -38,16 +38,17 @@ let words = str.split(" ");  //1. convert given str to words.
              
               count += 1;  // 7. then update the state of count by =====> count = count+1 =====> count += 1;  
 
-              if(count > 1) { //8. finally update the state of result if state of count is changed and return the result.
+              if(count > 1) { //8. if count > 1 ( meaning: there is word with repeating letter and we found the desired outcome)
+                              
                 
-                 result = word;
+                 result = word;    //9.so result will be th word which we found after looping with k and count > 1.
               
            }
          }
        }
      }
    }
-   return result;
+   return result;   //10. return the result.
 }
 // keep this function call here 
 console.log(LetterCountI(readline()));
