@@ -23,7 +23,7 @@ pop() method removes the last element from an array and returns that element */
   let sum = 0;
     
 
-  /* 3 .the outer loop goes through every number in the array */
+  // 3 .the outer loop goes through every number in the array 
     for (let i = 0; i < arr.length; i++) {
     sum += arr[i]; 
 
