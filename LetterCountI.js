@@ -9,10 +9,9 @@ Input: "No words"
 Output: -1*/
 
 
-/* Method Statement: This is a pretty typical way to solve this sort of algorithm. 
-                     It essentially runs through the for loop to find a result what we want
+/* Method Statement: Essentially running through the for loop to find a result what we want
                      and until we found the desired result.
-                     if it is not found, return a default statement (i.e. return -1;). 
+                     if it is not found, return a default statement (i.e. return -1;)  
                      If there is only one return statement for (for loop), 
                      then it could be slightly better for clean code.*/
 
