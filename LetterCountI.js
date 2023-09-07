@@ -9,13 +9,18 @@ Input: "No words"
 Output: -1*/
 
 
+/* Method Statement: This is a pretty typical way to solve this sort of algorithm. 
+                     It essentially runs through the for loop to find a result what we want,
+                     if it is not found, return a default statement (i.e. return -1;). 
+                     If there is only one return statement for (for loop), 
+                     then it could be slightly better for clean code.*/
 
 
 
-let words = str.split(" ");  //1. convert to words by spliting str.
+let words = str.split(" ");  //1. convert given str to words.
    let count = 0;   // 2A. initial state of count shall be "zero".
-   let result = -1; // 2B. assuming there are no words with repeating letters.
-
+   let result = -1; // 2B. assuming there are no words with repeating letters (it is given statement from question).
+ 
    for(let i=0; i < words.length; i++) {//3. loop through words with index i and pass the word with index i.
      let word= words[i];
 
