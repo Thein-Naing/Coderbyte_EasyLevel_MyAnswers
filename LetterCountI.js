@@ -40,7 +40,7 @@ let words = str.split(" ");  //1. convert given str to words.
               if(count > 1) { //8. if count > 1 ( meaning: there is word with repeating letter and we found the desired outcome)
                               
                 
-                 result = word;    //9.so result will be th word which we found after looping with k and count > 1.
+                 result = word;    //9.so result will be th word which we found after looping with j or k and count > 1.
               
            }
          }
