@@ -15,7 +15,10 @@ function NumberAddition(str) {
 
   
   //2. remove everything from given str except numbers from string and then convert them to array.
-  //2A . use str.replace(/[^0-9\.]+/g," ") regex and .split method.
+  //2A. use str.replace(/[^0-9\.]+/g," ") regex and .split method.
+  //2B. That str.replace(/[^0-9\.]+/g," ") snippet will replace anything that is not a number with nothing.
+  //2C. / / is "beginning and end of regex". [^0-9]+ means "matches one or more digits"./
+  
 
   str = str.replace(/[^0-9\.]+/gi," ").split(" ");
 
