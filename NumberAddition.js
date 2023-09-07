@@ -11,17 +11,17 @@ function NumberAddition(str) {
 
   // code goes here  
 
-   let sum = 0;
+   let sum = 0;  //1. define sum of all numbers with initial state value "zero".
 
   
-  //2. remove everything from str except numbers from string and then convert to array.
-  //2A . use str.replace(/[^0-9\.]+/g," ") regex method.
+  //2. remove everything from given str except numbers from string and then convert them to array.
+  //2A . use str.replace(/[^0-9\.]+/g," ") regex and .split method.
 
   str = str.replace(/[^0-9\.]+/gi," ").split(" ");
 
 
 
-  //3. loop through every characters and convert to integer and add to sum and update the sum.
+  //3. loop through every number characters in updated str and then convert to integer and add to sum and update the sum.
     for (let i = 0; i < str.length; i++) {
         sum += Number(str[i]);
     }
