@@ -8,7 +8,7 @@ If there are less than four numbers in the array your program should return the 
 function LargestFour(arr) { 
   // code goes here  
   
-  // 1.initialize state with arr.length <= 0;
+  // 1.initial state of sum with arr.length <= 0 shall be "zero";
   let sum = 0; 
 
   //2. if arr.length < 4 ; calculate the sume of this numbers in array by using for loop.
