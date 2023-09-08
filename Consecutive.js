@@ -28,7 +28,7 @@ from the start to last using for loop. */
 for (let i = first; i <= last; i++) {
   
 /* 5. then using if statement,
-we declare "i" is not in sequence of intergers in sorted array.
+we declare "i" is not in sequence of intergers in sorted array using arr.includes() method.
 (meaning: we loop through each integers and 
 remove existing intergers from start to last integer of sorted array
  and only leave with uncounted intergers to count) */
