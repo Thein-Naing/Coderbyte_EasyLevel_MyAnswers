@@ -37,7 +37,7 @@ if (!sortedArr.includes(i))
   
 //6. now we can update the state of count by counting uncounted intergers.
   
-    count++;
+    count += 1;
   }
  return count; // 7. return count
 }
