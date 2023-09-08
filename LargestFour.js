@@ -18,10 +18,10 @@ function LargestFour(arr) {
    }
    return sum; //2A. then return sum.
   }
-  /*3A. to get four largest numbers firstly sort the given arr. 
+  /*3A. to get four largest numbers, firstly sort the given arr. 
    arr.sort method always return comparing every element with next element.
    3B. then use arr.slice method to get first four numbers of sorted array.
-   3C. then to get the sum of these four numbers, use arr.reduce method and return it. */
+   3C. then use arr.reduce method to get the sum of these four numbers and return it. */
 
   return  sum += arr.sort((a,b) => b -a ).slice(0, 4).reduce((a,b) => a +b);
  }
