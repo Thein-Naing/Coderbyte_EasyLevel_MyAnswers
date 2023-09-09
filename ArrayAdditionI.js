@@ -49,7 +49,7 @@ pop() method removes the last element from an array and returns that element */
         }
       }
     }
-    //7. compares the sum to default value = 0. But the array will not be empty.
+    //7. compares the sum to default value assuming arr is empty, then
     sum = 0;
   }
     // 8. but the array will not be empty in given question. so return false.
