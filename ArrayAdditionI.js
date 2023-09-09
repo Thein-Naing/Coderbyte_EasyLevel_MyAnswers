@@ -12,7 +12,7 @@ function ArrayAdditionI(arr) {
 sort() method always return a funtion with compare element to next element.
 pop() method removes the last element from an array and returns that element */
 
-  let largestNum = arr.sort(function(a,b){return a - b}).pop();
+  let largestNum = arr.sort((a,b) => a - b).pop();
 
   //2. declare initial state for sum of all numbers except largestNum shall be "zero".
   let sum = 0;
