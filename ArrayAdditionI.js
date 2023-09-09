@@ -23,11 +23,11 @@ pop() method removes the last element from an array and returns that element */
     sum += arr[i]; 
 
   /* 4. the inner loop adds all the other numbers in the array and 
-    then compares the total to the largest number . If match is     
-   found then return true else return false. */
+    then compares the sum to the largest number . If result is     
+   equal then return true otherwise return false. */
 
   // 5.for arr contains only positive numbers
-    for (let j = 0; j < arr.length; j++) {
+    for (let j = 1; j < arr.length; j++) {
       if (j != i) {        
         sum += arr[j];   
 
