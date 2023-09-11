@@ -14,7 +14,7 @@ function SnakeCase(str) {
   /* 1. convert  str to lowerCase words 
   2. then use arr.replace method together with regex.
   3.  /\w/ === Any non-word character in regex with global flag g.
-  4. and replace  them with _ .method and return it. */
+  4. and replace them with "_" and return it. */
 
   return str.toLowerCase().replace(/\W/g, "_");
  
