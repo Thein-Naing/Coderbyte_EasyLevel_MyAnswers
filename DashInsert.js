@@ -21,7 +21,7 @@ function DashInsert(str) {
   /*2.   / / === start and end of regex.
    d === digits (0-9) 
    d*[12579]  === digits [13579] any character of: '1', '3', '5', '7', '9'
-  (?  === look ahead to see if there is a match for 
+  (?=  === look ahead to see if there is a match for 
    d*[13579] === digits [13579] any character of: '1', '3', '5', '7', '9 in following number
   ) === end of look-ahead   
    g ==== global search flag
