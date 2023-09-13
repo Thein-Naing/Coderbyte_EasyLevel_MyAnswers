@@ -12,7 +12,7 @@ function Superincreasing(arr) {
  let sum = 0;
 
 /*2. loop through i and find value for sum. 
-then return false which we want to satisfy false condition */
+define if statement for sum which will satisfy false condition and then return false. */
   
   for(let i = 0; i < arr.length; i++) {
     if (sum >= arr[i]) {
