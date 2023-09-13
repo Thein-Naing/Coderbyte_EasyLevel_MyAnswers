@@ -9,7 +9,7 @@ Input: 56730
 Output: 567-30
 
 Tags
-string manipulationsearching */
+string manipulation searching */
 
 function DashInsert(str) { 
 
@@ -27,11 +27,12 @@ function DashInsert(str) {
    g ==== global search flag
      */
 
-    /* 3. if match we found there are 2 odd numbers and so 
-    we will add "-" sign betwwen this 2 odd numbers by using  $1.
+    /* 3. if match we found there are 2 odd numbers together and so 
+    we will add "-" sign between this 2 odd numbers by using  $1.
+    
     3A. $1 === $1 is a first captured group.
      this value used in replacement patterns. 
-     this is substitution and specifically used in numbered group substitutions. */
+     $1 is substitution and specifically used in numbered group substitutions. */
 
      /*  4. MEANING : Hey regex! find if each and every folowoing number is 1,3,5,7,9 for current number 1,3,5,7,9.
      if you found it then add "-" between this 2 odd number using $1 sign and return it.
