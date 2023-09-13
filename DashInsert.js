@@ -35,9 +35,9 @@ function DashInsert(str) {
      $1 is substitution and specifically used in numbered group substitutions. */
 
      /*  4. MEANING : Hey regex! find if each and every folowoing number is 1,3,5,7,9 for current number 1,3,5,7,9.
-     if you found it then add "-" between this 2 odd number using $1 sign and return it.
+     if you found it then add "-" between this 2 odd number using $1 sign.
      
-     5. use str.replace method.
+     5. use str.replace method and return it.
      */
     
   return str.replace(/(d*[13579])(?=d*[13579])/g, "$1-");
