@@ -24,8 +24,7 @@ function DashInsert(str) {
   (?=  === look ahead to see if there is a match for 
    d*[13579] === digits [13579] any character of: '1', '3', '5', '7', '9 in following number
   ) === end of look-ahead   
-   g ==== global search flag
-     */
+   g ==== global search flag     */
 
     /* 3. if match we found there are 2 odd numbers together and so 
     we will add "-" sign between this 2 odd numbers by using  $1.
