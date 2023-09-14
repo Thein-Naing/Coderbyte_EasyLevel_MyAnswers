@@ -14,14 +14,9 @@ function WordCount(str) {
    /*2. remove the white space from string. use /\S+/g for better perfomance
    \S+ replace chunk of white space */     
 
-  const words = str.match(/\S+/g);
+
   //3. return words with .length
-  return words.length;
-
-  
  
-
-  //###4. Or more cleaner code
    return str.match(/\S+/g).length;
 }
    
