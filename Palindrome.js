@@ -8,12 +8,13 @@ Have the function Palindrome(str) take the str parameter being passed and
 
 function Palindrome(str) { 
   // code goes here  
-  //1. split the str into letters of word and join back and convert to lower case .
-  str = str.split("").join("").toLowerCase();
-  //2. create reverseStr, split the converted lower case str,reverse and join back.
-  reverseStr = str.split("").reverse().join("");
-  //3. return reverseStr === str;
-  return reverseStr === str;
+  //1. split the str into letters of word , join back, convert to lower case and assign to str1..
+  str1 = str.split("").join("").toLowerCase();
+  //2. split the converted lower case str1, use arr.reverse , join back and assign to str2.
+  str2 = str1.split("").reverse().join("");
+  //3. if str1 === str2 ? true , otherwise false. so just simply return str1 === str2.
+ 
+  return str1 === str2;
 }
    // keep this function call here 
 console.log(Palindrome(readline()));
