@@ -13,7 +13,8 @@ function MeanMode(arr) {
 
  // 2. to find mode, firstly create a mode object that stores frequencies of elements in arr.
   
-  let obj = {}; //2A. e.g { 2: "1", 4: "3", 6:"1"} key/value pair for [4,4,4,6,2]
+  let obj = {};  /* 2A. obj contain each number as the key and the number of times it occurs as the value, 
+                    e.g { 2: "1", 4: "3", 6:"1"} key/value pair for [4,4,4,6,2] */
 
   /*3. use arr.forEach method to call a function for each every element stored in array
   to find the frequencies of occurence in the array.
