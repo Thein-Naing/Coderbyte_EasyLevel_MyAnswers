@@ -26,7 +26,7 @@ function MeanMode(arr) {
   
   arr.forEach(el => obj[el] = (obj[el] || 0) + 1); 
 
-  /*4. then compare frequencies of each every element in modeObj 
+  /*4. then compare frequencies of each every element in obj 
   by using arr.reduce method and ternary operator. */
   
   let mode = arr.reduce((a, b) => obj[b] > obj[a] ? b : a);
