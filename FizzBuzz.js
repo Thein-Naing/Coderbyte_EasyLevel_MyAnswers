@@ -6,9 +6,6 @@ and every number that is divisible by both 3 and 5 with the word "FizzBuzz". For
 if num is 16, then your program should return the string "1 2 Fizz 4 Buzz Fizz 7 8 Fizz Buzz 11 Fizz 13 14 FizzBuzz 16". 
 The input will be within the range 1 - 50. */
 
-
-
-
 function FizzBuzz(num) { 
 
   // code goes here  
@@ -33,10 +30,11 @@ function FizzBuzz(num) {
     }
   }
 
-
-  return result.join(" ");  //7. join the elements inside result array and return.
+ return result.join(" ");  //7. join the elements inside result array and return.
 
 }
    
 // keep this function call here 
 console.log(FizzBuzz(readline()));
+
+
