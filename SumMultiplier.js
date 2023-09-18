@@ -18,26 +18,31 @@ function SumMultiplier(arr) {
 
   // code goes here  
   
-/*  Method A.*/ 
-//   let sum = arr.reduce((a, b) => ( a +b)) * 2;
-//     for(let i =0; i < arr.length; i++) {
-//       for(let j = i + 1; j < arr.length; j++ ) {
-//         if ((arr[i] * arr[j])  > sum ) {
-//            return true;
-//         }
-//       }
-//     }
-//     return false;
-// }
-
-  /* Method B.*/
-
-  // let sum = arr.reduce((a, b) => ( a +b)) * 2;  
-  // return  arr.sort((a, b) => b -a)[0]  * arr.sort((a, b) => b-a)[1] > sum 
-
-  /* Method C*/
+/*  Method A */ 
   
-  return  arr.sort((a, b) => b -a)[0]  * arr.sort((a, b) => b-a)[1] > arr.reduce((a, b) => ( a +b)) * 2; 
+  let sum = arr.reduce((a, b) => ( a +b)) * 2;                                  // 1. find sum of given array and double it by using arr.reduce method.       
+    for(let i =0; i < arr.length; i++) {                                        /* 2. loop through each every number of array by using for loop method .*/  
+      
+                                                                                 
+                                                                                      
+      for(let j = i + 1; j < arr.length; j++ ) {                                 /* 3. inside inner loop, find largest number from outer loop and inner loop, 
+        if ((arr[i] * arr[j])  > sum ) {                                               then multiply this two numbers each other and compare with sum. */                            
+           return true                                                           // 4. if it is, return true.
+        }
+      }
+    }
+    return false;                                                                // 5. otherwise return false.
+}
+
+  /* Method B */
+
+  let sum = arr.reduce((a, b) => ( a +b)) * 2;                                  // 1. find sum of given array and double it using arr.reduce method.
+  return  arr.sort((a, b) => b -a)[0]  * arr.sort((a, b) => b-a)[1] > sum       /* 2. find two largest number of array by using arr.sort method, multiply each other, 
+                                                                                     compare with sum and then just return it. */
+
+  /* Method C */
+  
+  return  arr.sort((a, b) => b -a)[0]  * arr.sort((a, b) => b-a)[1] > arr.reduce((a, b) => ( a +b)) * 2;           // 1. same procedure as Method B.
  
 // keep this function call here 
 console.log(SumMultiplier(readline()));
