@@ -17,13 +17,13 @@ function CodelandUsernameValidation(str) {
        so  username === str.length >= 4 && str.length <= 25 
 
      2. it must start with a letter. 
-        so create firstCharacter as a letter : firstChar = str.charAt(0)   
+        so create firstCharacter as a letter: firstChar = str.charAt(0)   
 
      3. it can only contain letters, numbers, and the underscore character. 
         so create regex: str === str.match("^[a-z0-9_]*$") 
 
      4. it cannot end with an underscore character 
-        so create regex: !lastChar.match(/_/gi))  */
+        so create last character: regex: !lastChar.match(/_/gi))  */
 
   let firstChar = str.charAt(0);     
   let lastChar = str.charAt(str.length -1);
