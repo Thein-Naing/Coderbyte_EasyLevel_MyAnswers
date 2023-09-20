@@ -22,8 +22,9 @@ function CodelandUsernameValidation(str) {
      3. it can only contain letters, numbers, and the underscore character. 
         so create regex: str === str.match("^[a-z0-9_]*$") 
 
-     4. it cannot end with an underscore character 
-        so create regex for last character: regex: !lastChar.match(/_/gi))  */
+     4. it cannot end with an underscore character.
+        so create last character as a letter: lastChar = str.charAt(str.length -1).
+        also create regex for last character: regex: !lastChar.match(/_/gi))  */
 
   let firstChar = str.charAt(0);     
   let lastChar = str.charAt(str.length -1);
