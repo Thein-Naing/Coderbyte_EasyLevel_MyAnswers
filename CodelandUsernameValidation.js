@@ -32,11 +32,11 @@ function CodelandUsernameValidation(str) {
 if ((str.length >= 4 && str.length <= 25) && ( firstChar.match(/[a-z]/gi)) &&
  (str.match("^[a-z0-9_]*$")) && (!lastChar.match(/_/gi))) {
 
-   str = true;                 // 5. if all requirements are met, return str true.
+   str = true;                 // 5. if all requirements are met, return str = true.
 
  } else {
 
-str = false;                   // 6. else return str false.
+str = false;                   // 6. else return str = false.
 
 }
    return str;                 // 7. otherwise return str.
