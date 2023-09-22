@@ -11,12 +11,12 @@ Negative numbers may be entered as parameters, 0 will not be entered, and no arr
 // Method A.
 function ArithGeo(arr) { 
 
-       let result = "-1";                                                        /* 1. initial state of result shall be "-1" assuming the sequence doesn't follow 
-                                                                                      either "Arithmetic" or "Geometric" pattern.
+       let result = "-1";                                                        // 1. initial state of result shall be "-1" assuming the sequence doesn't follow 
+                                                                                 //  either "Arithmetic" or "Geometric" pattern.
     
-        if ((arr[1] - arr[0]) == (arr[arr.length - 1] - arr[arr.length - 2])) {  /* 2. for array like this [5,10,15], we can express  arr[1]-arr[0] == (arr[2]-arr[1]. 
-                                                                                       but for array like this [1,2,3,4,5,7,10] we have to use (arr[arr.length - 1] - arr[arr.length - 2]) 
-                                                                                      for last element of array instead of arr[1]-arr[0] == (arr[2]-arr[1] to avoid error in pattern. */
+        if ((arr[1] - arr[0]) == (arr[arr.length - 1] - arr[arr.length - 2])) {  // 2. for array like this [5,10,15], we can express  arr[1]-arr[0] == (arr[2]-arr[1]. 
+                                                                                 //    but for array like this [1,2,3,4,5,7,10] we have to use (arr[arr.length - 1] - arr[arr.length - 2]) 
+                                                                                 //    for last element of array instead of arr[1]-arr[0] == (arr[2]-arr[1] to avoid error in pattern. 
              result = "Arithmetic";                                              // 3. if the sequence follows an arithmetic pattern, update result = "Arithmetic" .
   
         } else if ((arr[1] / arr[0]) == (arr[arr.length - 1] / arr[arr.length - 2])) {  
