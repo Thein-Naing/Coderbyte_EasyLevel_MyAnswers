@@ -21,7 +21,7 @@ To extract characters from the end of the string, use a negative start position.
   for (let i = 0; i < words.length; i++) {
     words[i] = words[i][0].toUpperCase() + words[i].substr(1)
   }
- //3. Join back words with one space between double quoations marks for breaking between words.
+ //3. rejoin the modified array of words as a string  with one space between double quoations marks for breaking between words.and return it.
 
   return words.join(" "); 
 }
