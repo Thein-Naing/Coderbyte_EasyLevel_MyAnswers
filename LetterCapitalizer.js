@@ -6,7 +6,7 @@ capitalize the first letter of each word. Words will be separated by only one sp
 function LetterCapitalize(str) { 
 // code goes here  
   
-  /*1.split the given string into an array of strings and
+  /*1.split the given string into an array of words and
      make one space between double quoations marks whenever a blank space is encountered */
   
   let words = str.split(" "); 
