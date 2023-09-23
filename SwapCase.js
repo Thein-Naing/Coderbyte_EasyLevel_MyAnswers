@@ -7,7 +7,7 @@ function SwapCase(str) {
 
   // code goes here  
 
-  // 1. divides the string into an ordered list of words using str.split method.
+  // 1. divide the string into an ordered list of words using str.split method.
   
   let words = str.split('');
   
