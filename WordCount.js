@@ -7,15 +7,10 @@ Words will be separated by single spaces. */
 function WordCount(str) { 
 
   // code goes here  
-
-  //1. trim the string . you can  leave this step also.
-   str = str.trim();
   
-   /*2. remove the white space from string. use /\S+/g for better perfomance
-   \S+ replace chunk of white space */     
-
-
-  //3. return words with .length
+   /*1. remove the white space from string. use /\S+/g for better perfomance.
+        \S+  replace chunk of white space.  */     
+   //2. use str.match, str.length and return it. 
  
    return str.match(/\S+/g).length;
 }
