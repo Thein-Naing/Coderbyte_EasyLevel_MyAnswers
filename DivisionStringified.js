@@ -19,7 +19,7 @@ function DivisionStringified(num1,num2) {
        delete count will be 0 .
        and add "," new element will be right after the delete count of 0.
     6. e.g. num1 = 123456789 and num2 = 10000 , result = "12346", if i === 3 then result.length -i = 2 
-             delete count is 0 here. then "," will be added at index 2 of 12346 and 12,346. */
+            delete count is 0 here. then "," will be added at index 2 of 12346 and 12,346. */
 
 
   let result = Math.round(num1 / num2).toString().split("");
