@@ -8,7 +8,7 @@ Assume numbers and punctuation symbols will not be included in the string. */
 function AlphabetSoup(str) { 
 
   // code goes here 
-  /*1. divides the string into an ordered list of letters using str.split method and 
+  /*1. divide the string into an ordered list of letters using str.split method and 
        str.sort  method and rejoin the modified array of letters as a string and return it. */
   
  return str.split("").sort().join("");
