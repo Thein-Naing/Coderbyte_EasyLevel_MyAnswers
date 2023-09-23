@@ -20,9 +20,9 @@ function SwapCase(str) {
 
     if (words[i] !== words[i].toLowerCase()) {    
 
-        words[i] = words[i].toLowerCase();       
+        words[i] = words[i].toLowerCase();      
 
-    } else if (words[i] !== words[i].toUpperCase()) {
+    } else  {
     
         words[i] = words[i].toUpperCase();
         
