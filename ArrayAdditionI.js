@@ -7,31 +7,29 @@ The array will not be empty, will not contain all the same elements, and may con
 
 function ArrayAdditionI(arr) {  
  
-/* 1. Take out the largest number from arr using 
-.sort and .pop method and  store as largestNum variable.
-sort() method always return a funtion with compare element to next element.
-pop() method removes the last element from an array and returns that element */
+/* 1. Take out the largest number from arr using arr.sort and arr.pop method and store as largestNum variable.
+      arr.sort() method always return a funtion with compare element to next element.
+      arr.pop() method removes the last element from an array and returns that element.  */
 
   let largestNum = arr.sort((a,b) => a - b).pop();
 
-  //2. declare initial state for sum of all numbers except largestNum shall be "zero".
+  //2. initial state for sum of all numbers except largest number shall be "zero".
   let sum = 0;
     
 
-  /* 3 .the outer loop goes through every number in the array */
+  /* 3. use for loop. the outer loop goes through each every number in the array and update the sum. */
     for (let i = 0; i < arr.length; i++) {
     sum += arr[i]; 
 
-  /* 4. the inner loop adds all the other numbers in the array and 
-    then compares the sum to the largest number . If result is     
-   equal then return true otherwise return false. */
+  /* 4. the inner loop adds all the other numbers in the array and then compares the sum to the largest number. 
+        if result is equal to largest number then return true otherwise return false. */
 
   // 5.for arr contains only positive numbers
     for (let j = 1; j < arr.length; j++) {
       if (j != i) {        
         sum += arr[j];   
 
-   //5A. then compare the sum to the largestNum 
+  //5A. then compare the sum to the largestNum 
          if (sum === largestNum) {
           return true;
         }
@@ -43,7 +41,7 @@ pop() method removes the last element from an array and returns that element */
       if (i != k) {
         sum -= arr[k];
 
-     //6A. then compare the sum to the largestNum 
+     // 6A. then compare the sum to the largestNum 
         if (sum === largestNum) {
           return true;
         }
