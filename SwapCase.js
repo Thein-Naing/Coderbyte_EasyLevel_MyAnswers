@@ -17,19 +17,12 @@ function SwapCase(str) {
   // 5. rejoin the modified array of words as a string and return it.
 
   for (let i = 0; i < words.length; i++) {
-
-    if (words[i] !== words[i].toLowerCase()) {    
-
+    if (words[i] !== words[i].toLowerCase()) {  
         words[i] = words[i].toLowerCase();      
-
-    } else  {
-    
+    } else {
         words[i] = words[i].toUpperCase();
-        
+           }
     }
-           
-  }
-
   return words.join("");
 }
    
