@@ -13,7 +13,7 @@ function SwapCase(str) {
   
   // 2. loop through the words array for swapping each every character in word.
   // 3. if character of word is not lowercase then change to lower case.
-  // 4. if character of word is not upper case then change to upper case.
+  // 4. else character of word is not upper case and then change to upper case.
   // 5. rejoin the modified array of words as a string and return it.
 
   for (let i = 0; i < words.length; i++) {
