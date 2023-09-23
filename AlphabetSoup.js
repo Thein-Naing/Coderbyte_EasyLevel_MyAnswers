@@ -8,8 +8,8 @@ Assume numbers and punctuation symbols will not be included in the string. */
 function AlphabetSoup(str) { 
 
   // code goes here 
-  /*1. split the string with  single/double quotation marks and 
-  sort and join back with single/double quotation marks and return it.*/
+  /*1. divides the string into an ordered list of letters using str.split method and 
+       str.sort  method and rejoin the modified array of letters as a string and return it. */
   
  return str.split("").sort().join("");
 
