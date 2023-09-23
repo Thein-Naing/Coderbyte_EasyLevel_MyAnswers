@@ -8,7 +8,7 @@ function CheckNums(num1,num2) {
   // code goes here  
 
   // 1. if num2 is greater than num1, return the string true.
-  // 2. if num2 is greater than num1, return the string false. 
+  // 2. if num2 is lower than num1, return the string false. 
   // 3. If the parameter values are equal to each other ( meaning: num1 = num2) then return the string -1.
   // 4. use ternary operator and return it.
 
