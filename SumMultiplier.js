@@ -25,8 +25,8 @@ function SumMultiplier(arr) {
       
                                                                                  
                                                                                       
-      for(let j = i + 1; j < arr.length; j++ ) {                                 /* 3. inside inner loop, find largest number from outer loop and inner loop, 
-        if ((arr[i] * arr[j])  > sum ) {                                               //then multiply this two numbers each other and compare with sum. */                            
+      for(let j = i + 1; j < arr.length; j++ ) {                                 // 3. inside inner loop, find largest number from outer loop and inner loop, 
+        if ((arr[i] * arr[j])  > sum ) {                                         //    then multiply this two numbers each other and compare with sum.                             
            return true                                                           // 4. if it is, return true.
         }
       }
