@@ -14,12 +14,13 @@ function DivisionStringified(num1,num2) {
     3. if result.length > 3  then we have to loop through each every length of result. 
        in this case, use arr.splice method to remove unwanted result, add "," or replace result with ",". 
     4. then rejoin and return result. 
-    5. meaning: by using arr.splice method, if  i % 3 === 0 (in for loop, we will check result length of i % 3 === 0 first.)
-       then delete elements will start from index at result.length - i.
-       delete count will be 0 .
-       and add "," new element will be right after the delete count of 0.
-    6. e.g. num1 = 123456789 and num2 = 10000 , result = "12346", if i === 3 then result.length -i = 2 
-            delete count is 0 here. then "," will be added at index 2 of 12346 and 12,346. */
+    5. meaning: by using arr.splice method, if  i % 3 === 0 (in for loop, we will check result length of i % 3 === 0 )
+                from starting  i = result.length - 1 and then continue checking backward index of result.)
+                then delete elements will start from index at result.length - i.
+                delete count will be 0 .
+                and add "," new element will be right after the delete count of 0.
+    6. e.g. num1 = 123456789 and num2 = 10000 , result = "12346", if i % 3 === 0, then result.length -i = 2. 
+            here delete count is 0. so "," will be added at index 2 of 12346 and final result become 12,346. */
 
 
   let result = Math.round(num1 / num2).toString().split("");
