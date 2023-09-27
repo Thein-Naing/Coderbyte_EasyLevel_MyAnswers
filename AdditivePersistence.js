@@ -9,15 +9,14 @@ function AdditivePersistence(num) {
  // note: if you can solve  MultiplicativePersistence challenge, you can also solve this challenge.
 
  // code goes here  
- /* given:  the number of times we must add the digits in num until 
-            we reach a single digit. 
+ /* given:  the number of times we must add the digits in num until we reach a single digit. 
             
     clarification: it is a specified condition to meet desired result at the end and we should use while loop.
                    because the while loop loops through a block of code as long as a specified condition is true/met. */ 
 
   let count = 0;                              // 1. initial number of times multiply the digits in num shall be "zero".
 
-  while (num.toString().length > 1) {        // 2 . convert given num to string and initiate while loop with condition if there is more than a single digit. 
+  while (num.toString().length > 1) {        // 2 . convert given num to string and initiate while loop with condition if there is more than a single digit in num. 
 
 
   num = num.toString().split('').reduce((a,b) => parseInt(a) + parseInt(b), 0);   /*3. specified condition here is we must add the digits in given num
