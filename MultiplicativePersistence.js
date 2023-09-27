@@ -19,8 +19,8 @@ function MultiplicativePersistence(num) {
    while (num.toString().length > 1) {        // 2 . convert given num to string and initiate while loop with if there is more than a single digit. 
 
 
-    num = num.toString().split('').reduce((a,b) => a * b, 1);   /*3. specified condition here is we must multiply the digits in given num
-                                                                     until we reach a single digit.so use arr.reduce method to satisfy this condition. 
+    num = num.toString().split('').reduce((a,b) => a * b, 1);   /* 3. specified condition here is we must multiply the digits in given num
+                                                                      until we reach a single digit.so use arr.reduce method to satisfy this condition. 
                                                                  notes:  array.reduce(function(total, currentValue), initialValue) 
                                                                  total = the initialValue, or the previously returned value of the function. here total = a;
                                                                  currentValue = The value of the current element. here currentValue = b;
