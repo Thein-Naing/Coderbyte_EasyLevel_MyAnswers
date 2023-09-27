@@ -4,7 +4,10 @@
 This is just information sharing for whom visited to my github page.
  `
 
-`1.palindrome(another answer)`
+`[1]palindrome(another answer)`
 ![image](https://github.com/Thein-Naing/Coderbyte_MyAnswers/assets/117463446/b4eabc35-bfa6-4d45-98d6-a7a80065b8b6)
+`[2]ArithGeo `
+![image](https://github.com/Thein-Naing/Coderbyte_EasyLevel_MySolutions/assets/117463446/f41d34d4-fb9b-4341-b10d-018091603830)
+
 
 
