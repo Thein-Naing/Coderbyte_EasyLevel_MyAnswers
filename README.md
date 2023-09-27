@@ -10,6 +10,9 @@ This is just information sharing for whom visited to my github page.
 ![image](https://github.com/Thein-Naing/Coderbyte_EasyLevel_MySolutions/assets/117463446/446245cc-2f8f-48b2-aa15-14e3e108dda0)
 `[3]MultiplicativePersistence`
 ![image](https://github.com/Thein-Naing/Coderbyte_EasyLevel_MySolutions/assets/117463446/6466714d-72b5-4dea-acd9-0acc60f6958f)
+1[4]AdditivePersistence.js`
+![image](https://github.com/Thein-Naing/Coderbyte_EasyLevel_MySolutions/assets/117463446/856c7d02-2689-4791-b1e3-24ade13240de)
+
 
 
 
