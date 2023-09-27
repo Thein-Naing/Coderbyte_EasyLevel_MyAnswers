@@ -8,8 +8,7 @@ For example: if num is 39 then your program should return 3 because 3 * 9 = 27 t
 function MultiplicativePersistence(num) { 
 
  // code goes here  
- /* given:  the number of times we must multiply the digits in num until 
-            we reach a single digit. 
+ /* given:  the number of times we must multiply the digits in num until we reach a single digit. 
             
     clarification: it is a specified condition to meet desired the result at the end and we should use while loop.
                    because the while loop loops through a block of code as long as a specified condition is true. */ 
