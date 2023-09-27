@@ -23,8 +23,8 @@ function MultiplicativePersistence(num) {
                                                                  notes:  array.reduce(function(total, currentValue), initialValue) 
                                                                  total = the initialValue, or the previously returned value of the function. here total = a;
                                                                  currentValue = The value of the current element. here currentValue = b;
-                                                                 initialValue = A value to be passed to the function as the initial value. here initialValue = 1; 
-                                                                                because in while loop condition, we assume num.toString().length > 1. */
+                                                                 initialValue = A value to be passed to the function as the initial value. here initialValue = 1; */
+                                                                                 
                                                                  
                                                                  
     count += 1;                                                 // 4. if it is true, update the count.
