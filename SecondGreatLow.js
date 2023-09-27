@@ -26,7 +26,7 @@ function SecondGreatLow(arr) {
     }
 
   if (arr.length === 2) {             /*  return second lowest and second greatest numbers,
-                                          respectively, separated by a space. */ 
+                                          respectively, separated by a space(use String Concatenation, add "," between numbers). */ 
     return arr[0] + " " + arr[1];
 
    }  else if (arr.length > 2 ) {    
