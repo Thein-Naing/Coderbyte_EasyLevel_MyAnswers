@@ -15,7 +15,7 @@ function MultiplicativePersistence(num) {
 
   let count = 0;                              // 1. initial number of times multiply the digits in num shall be "zero".
 
-   while (num.toString().length > 1) {        // 2 . convert given num to string and initiate while loop with if there is more than a single digit. 
+   while (num.toString().length > 1) {        // 2 . convert given num to string and initiate while loop with if there is more than a single digit in the num. 
 
 
     num = num.toString().split('').reduce((a,b) => a * b, 1);   /* 3. specified condition here is we must multiply the digits in given num
