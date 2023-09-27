@@ -21,7 +21,7 @@ function SecondGreatLow(arr) {
   arr =  arr.sort((a, b) => b - a );  
   for (let i = arr.length - 1; i > 0; i--) { 
         if (arr[i] == arr[i - 1]) {   //  e.g for array = [2,2,2,5,5,5,6] case.
-            arr.splice(i, 1);         //  remove element at arr[i]  and remove one extra number.
+            arr.splice(i, 1);         //  remove element start index at arr[i] and remove only one extra number.
         }
     }
 
