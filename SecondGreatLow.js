@@ -40,3 +40,4 @@ function SecondGreatLow(arr) {
    
 }
 // keep this function call here 
+console.log(SecondGreatLow(readline()));
