@@ -23,7 +23,8 @@ function MultiplicativePersistence(num) {
                                                                  notes:  array.reduce(function(total, currentValue), initialValue) 
                                                                  total = the initialValue, or the previously returned value of the function. here total = a;
                                                                  currentValue = The value of the current element. here currentValue = b;
-                                                                 initialValue = A value to be passed to the function as the initial value. here initialValue = 1; */
+                                                                 initialValue = A value to be passed to the function as the initial value. here initialValue = 1; 
+                                                                 because  a OR b  !== 0 otherwise final result will be a * 0 = 0 or B * 0 = 0 .*/
                                                                                  
                                                                  
                                                                  
