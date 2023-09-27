@@ -20,10 +20,17 @@ function MultiplicativePersistence(num) {
 
 
     num = num.toString().split('').reduce((a,b) => a * b, 1);   /*3. specified condition here is we must multiply the digits in given num
-                                                                     until we reach a single digit. 
-                                                                     so use arr.reduce method to satisfy this condition */
+                                                                     until we reach a single digit.so use arr.reduce method to satisfy this condition. 
+                                                                 notes:  array.reduce(function(total, currentValue), initialValue) 
+                                                                 total = the initialValue, or the previously returned value of the function. here total = a;
+                                                                 currentValue = The value of the current element. here currentValue = b;
+                                                                 initialValue = A value to be passed to the function as the initial value. here initialValue = 1; 
+                                                                                because in while loop condition, we assume num.toString().length > 1. */
+                                                                 
+                                                                 
     count += 1;                                                 // 4. if it is true, update the count.
   }
+ 
   return count;                                                 // 5. return count.
 }
    
