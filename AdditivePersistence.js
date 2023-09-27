@@ -25,7 +25,10 @@ function AdditivePersistence(num) {
                                                                                        notes:  array.reduce(function(total, currentValue), initialValue) 
                                                                    total = the initialValue, or the previously returned value of the function. here total = a;
                                                                    currentValue = The value of the current element. here currentValue = b;
-                                                                   initialValue = A value to be passed to the function as the initial value. here initialValue = 0; */
+                                                                   initialValue = A value to be passed to the function as the initial value. here initialValue = 0; 
+                                                                   because loop will stop there is no more digits (meaning: 0) in the num, and returns the last return digit 
+                                                                   from the accumulator. 
+                                                                   parseInt(a), parseInt(b) ---> change string to integer.*/
   
     count += 1;                                                // 4. if it is true, update the count.
   }
