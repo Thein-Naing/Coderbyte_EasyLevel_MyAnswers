@@ -11,26 +11,22 @@ function FizzBuzz(num) {
   // code goes here  
     let result = [];  //1. create an array to add elements , initially is empty.
 
-  for( let i = 1; i <= num; i++) {  //2. loop through all elements starting from i = 1 and i <= num.
-      
-     if (!( i % 3 )) {    //3. use modulus operator to determine the remainder by 3
-      result.push("Fizz");  //3A. remainder !== 1 then add Fizz to result array.
-    }                      //3B. !( i % 3) === 0  or meaning: i is divisible by 3 .
-
-     else if(!(i % 5)){   // 4. same as procedure 3 & 3A.
-      result.push("Buzz");
-    }
-   
-     else if (!(i % 3) && !( i % 5)) {
-     result.push("FizzBuzz"); // 5.same as procedure 3 & 3A.
-    }
-
-    else {
-      result.push(i)  // 6. all above conditions are not met, then add (i) to result array.
+  for( let i = 1; i <= num; i++) {                           // 2. loop through all elements starting from i = 1 and i <= num.
+         if((i % ( 3 * 5 ) === 0)) {                         // 3. if  i % ( 3 * 5)  === 0; then add FizzBuzz to stack.
+      result.push("FizzBuzz"); 
+    }            
+        else if ( i % 3 == 0) {                              // 4. if  i %  3 === 0; then add Fizz to stack.
+      result.push("Fizz");
+          
+    }  else if (i % 5 == 0) {                                // 4. if  i %  5 === 0; then add Buzz to stack.
+        result.push("Buzz");
+          
+    }  else {                         
+        result.push(i)                                      // 6. all above conditions are not met, then add (i) to result array.
     }
   }
 
- return result.join(" ");  //7. join the elements inside result array and return.
+ return result.join(" ");                                   // 7. join the elements inside result array and return.
 
 }
    
