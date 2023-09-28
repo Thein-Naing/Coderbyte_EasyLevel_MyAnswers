@@ -18,6 +18,9 @@ This is just information sharing for whom visited to my github page.
 
 `[5] NumReverse`
 ![image](https://github.com/Thein-Naing/Coderbyte_EasyLevel_MySolutions/assets/117463446/7f1b28da-e70a-4b4d-97a8-6bcab95855e7)
+`[6] HappyNumbers`
+![image](https://github.com/Thein-Naing/Coderbyte_EasyLevel_MySolutions/assets/117463446/678be6ec-651c-4aab-8e77-0929f8eae647)
+
 
 
 
