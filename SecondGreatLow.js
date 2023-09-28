@@ -13,7 +13,7 @@ function SecondGreatLow(arr) {
   
 
   // 1. sort the given array to get array of numbers in ASC(ascending) order.
-  // 2. loop through each every number and check if there is same three number. we will start form i = arr.length -1 and loop backward to beginning.
+  // 2. loop through each every number and check if there is same three number. we will start from i = arr.length -1 and loop backward to beginning.
   /* 3. if there is same three number in array, use arr.splice method to remove one extra number. 
      4. when returning final result for second lowest and second greatest numbers,(use String Concatenation) add "," between numbers. */
 
