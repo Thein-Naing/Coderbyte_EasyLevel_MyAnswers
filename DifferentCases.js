@@ -70,8 +70,8 @@ console.log(DifferentCases(readline()));
 
 function DifferentCases(str) { 
 letters = str.toLowerCase().replace(/\W/g, " ").split(" ")  
-             .map(function(word) {
-                  return (word.charAt(0).toUpperCase() + word.slice(1));
+             .map(function(letters) {
+                  return (letters.charAt(0).toUpperCase() + letters.slice(1));
          }
  return letters.join(' ');
 }
