@@ -63,3 +63,20 @@ function DifferentCases(str) {
 
 // keep this function call here 
 console.log(DifferentCases(readline()));
+
+
+
+// Alternative Method 
+
+function DifferentCases(str) { 
+letters = str.toLowerCase().replace(/\W/g, " ").split(" ")  
+             .map(function(word) {
+                  return (word.charAt(0).toUpperCase() + word.slice(1));
+         }
+ return letters.join(' ');
+}
+
+// keep this function call here 
+console.log(DifferentCases(readline()));
+
+                     
