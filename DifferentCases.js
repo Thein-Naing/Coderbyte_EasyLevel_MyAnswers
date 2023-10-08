@@ -24,7 +24,7 @@ function DifferentCases(str) {
      we will convert first letter of each word to uppercase by using str.toUppcase() method and the charAt() method which returns the specified character from a string. 
      here is charAt(0) of letters[i] and then use str.slice() method which will extract from index 1 to the end of the string.
      
-  3. Here str.length = 5 === "cats AND*Dogs-are Awesome" become cats and dogs are awesome after using str.toLowerCase().replace(/\W/g, " ").split(" ").
+  3. Here str.length = 5 === "cats AND*Dogs-are Awesome" become "cats and dogs are awesome" after using str.toLowerCase().replace(/\W/g, " ").split(" ").
     1st iteration: str[0] = str[0].charAt(0).toUpperCase() + str[0].slice(1);
                    str[0] = "cats".charAt(0).toUpperCase()  + "cats".slice(1);
                    str[0] = "C"                            + "ats";
