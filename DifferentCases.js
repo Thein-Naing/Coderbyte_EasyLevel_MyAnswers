@@ -65,15 +65,13 @@ function DifferentCases(str) {
 console.log(DifferentCases(readline()));
 
 
-
 // Alternative Method 
 
 function DifferentCases(str) { 
-letters = str.toLowerCase().replace(/\W/g, " ").split(" ")  
-             .map(function(letters) {
-                  return (letters.charAt(0).toUpperCase() + letters.slice(1));
-         }
- return letters.join(' ');
+ return str.toLowerCase().replace(/\W/g, " ").split(' ')  
+               .map(function(letters) {
+               return (letters.charAt(0).toUpperCase() + letters.slice(1));
+      }).join(' '); 
 }
 
 // keep this function call here 
