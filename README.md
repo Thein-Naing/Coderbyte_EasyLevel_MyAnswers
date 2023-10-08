@@ -22,7 +22,8 @@ This is just information sharing for whom visited to my github page.
 ![image](https://github.com/Thein-Naing/Coderbyte_EasyLevel_MySolutions/assets/117463446/678be6ec-651c-4aab-8e77-0929f8eae647)
 
 `[7] DifferentCases`
-![image](https://github.com/Thein-Naing/Coderbyte_EasyLevel_MySolutions/assets/117463446/a520d766-15bd-43b2-90c7-9aa0c68ac923)
+![image](https://github.com/Thein-Naing/Coderbyte_EasyLevel_MySolutions/assets/117463446/12642b00-ebf6-4db8-bbe6-4f8847f61f59)
+
 
 
 
