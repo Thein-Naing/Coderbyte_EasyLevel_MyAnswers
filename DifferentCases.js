@@ -66,6 +66,8 @@ console.log(DifferentCases(readline()));
 
 
 // Alternative Method 
+/* The map() method creates a new array with the results of calling a provided function on every element in this array. 
+   Using map will call a provided callback function once for each element in an array, in order, and constructs a new array from the results. */
 
 function DifferentCases(str) { 
  return str.toLowerCase().replace(/\W/g, " ").split(' ')  
@@ -77,7 +79,9 @@ function DifferentCases(str) {
 // keep this function call here 
 console.log(DifferentCases(readline()));
 
+
 // Another Alternative Method 
+// The replace() method returns a new string with some or all matches of a pattern replaced by a replacement.
 
 function DifferentCases(str) { 
     return str.toLowerCase().replace(/\W/g, " ").split(' ')  
