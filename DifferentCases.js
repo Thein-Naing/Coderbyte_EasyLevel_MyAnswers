@@ -77,4 +77,16 @@ function DifferentCases(str) {
 // keep this function call here 
 console.log(DifferentCases(readline()));
 
+// Another Alternative Method 
+
+function DifferentCases(str) { 
+    return str.toLowerCase().replace(/\W/g, " ").split(' ')  
+              .map(function(word) {
+                         return letters.replace(letters[0], letters[0].toUpperCase());
+  }).join(' ');
+}
+
+// keep this function call here 
+console.log(DifferentCases(readline()));
+
                      
