@@ -24,6 +24,10 @@ This is just information sharing for whom visited to my github page.
 `[7] DifferentCases`
 ![image](https://github.com/Thein-Naing/Coderbyte_EasyLevel_MySolutions/assets/117463446/63c8a561-695c-44e4-9b25-a3abcd21e9de)
 
+`[8]CamelCase`
+![image](https://github.com/Thein-Naing/Coderbyte_EasyLevel_MySolutions/assets/117463446/5f830d5e-a177-470d-9320-9da53ddb8b24)
+
+
 
 
 
