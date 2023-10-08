@@ -17,7 +17,7 @@ function DifferentCases(str) {
 
 /* 
   1. Convert given str to lowercase letters by using str.toLowercase() and remove any special characters between letters using str.replace method with regex 
-     /\w/g === Any non-word character with global flag g ( non-word character === white space, -, e.t.c) and replace them with " "(one space between double qoates).
+     /\w/g === Any non-word character with global flag g ( non-word character === white space, -, e.t.c) and replace them with " "(one space between double qoatation marks).
      divide the given string into an ordered array of words using arr.split(" ") method and add an empty space between the parenthesis of the split()method.
      
   2. Create a For Loop to iterate each every letter of given str.
