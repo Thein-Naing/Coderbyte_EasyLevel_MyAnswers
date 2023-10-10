@@ -25,7 +25,7 @@ function StringMerge(str) {
   let strC = ""                    // 3. initiall result string shall be empty string and eventually alphanumeric characters will be added alternatively from strA and strB.
   
   for (let i = 0; i < strA.length; i++) {   // 4. initiate For Loop and value of i shall be strated counting from strA.
-      strC += (strA[i] + strB[i])           // 5. then adding alphanumeric characters to new str alternatively from strA and strB and assign to strC.
+      strC += (strA[i] + strB[i])           // 5. then adding alphanumeric characters to new str alternatively from strA and strB and assign to strC and update strC.
    }
    return strC;                             // 6. return strC.
 }
