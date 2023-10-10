@@ -19,7 +19,7 @@ function StringMerge(str) {
   // code goes here  
 
   let strA = str.split("*")[0]     /* 1. divide the given string into an ordered array of letters using arr.split(" * ") and assign str[0].
-                                     after spliting "123hg*aaabb" become 123hg aaabb and we will assign strA = 123hg.  */
+                                         after spliting "123hg*aaabb" become 123hg aaabb and we will assign strA = 123hg.  */
   let strB = str.split("*")[1]     /* 2. divide the given string into an ordered array of letters using arr.split(" * ") and assign str[1].
                                          after spliting "123hg*aaabb" , it become 123hg aaabb and we will assign strB = aaabb.  */
   let strC = ""                    // 3. initiall result string shall be empty string and eventually alphanumeric characters will be added alternatively from strA and strB.
