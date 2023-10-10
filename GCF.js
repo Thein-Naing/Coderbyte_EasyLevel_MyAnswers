@@ -13,13 +13,13 @@ array searching math fundamentals */
 function GCF(arr) { 
  
   // code goes here  
- let num = 1;
- for (let i = 1; i <= arr[0]; i++) { 
-    if (arr[0] % i === 0  && arr[1] % i === 0) {
-       num = i
+ let GCF = 1;                                                  // 1. initial value of GCF number shall be 1.
+ for (let i = 1; i <= arr[0]; i++) {                           // 2. use For Loop(for iterating each every integer of given arr to get desired condition).
+    if (arr[0] % i === 0  && arr[1] % i === 0) {               // 3. desired condtion === every number in array must be divisible by i where value of i starting from 1.
+       GCF = i                                                 // 4. if desired conditions are met, then GCF will be equal to this interger i.     
     }
   }
- return num;
+ return GCF;                                                   // 5. return GCF.
 }
 
 // keep this function call here 
