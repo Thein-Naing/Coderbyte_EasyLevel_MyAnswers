@@ -9,7 +9,7 @@ function ABCheck(str) {
 
   // code goes here 
   
-  //1. use reges str.match method.
+  //1. use regex str.match method.
   /*2. a is 3 places away from b and also b is 3 places away from a.
       . DOT represent ANY ONE character 
       and so .{3} === three characters
