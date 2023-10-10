@@ -30,6 +30,10 @@ This is just information sharing for whom visited to my github page.
 `[9]GCF`
 ![image](https://github.com/Thein-Naing/Coderbyte_EasyLevel_MySolutions/assets/117463446/702526fe-efa5-4284-bec7-1d6d3d69386e)
 
+`[10]StringMerger`
+![image](https://github.com/Thein-Naing/Coderbyte_EasyLevel_MySolutions/assets/117463446/6f99145d-f273-4988-b0ae-9e8eb329dd2c)
+
+
 
 
 
