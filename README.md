@@ -27,6 +27,10 @@ This is just information sharing for whom visited to my github page.
 `[8]CamelCase`
 ![image](https://github.com/Thein-Naing/Coderbyte_EasyLevel_MySolutions/assets/117463446/5f830d5e-a177-470d-9320-9da53ddb8b24)
 
+`[9]GCF`
+![image](https://github.com/Thein-Naing/Coderbyte_EasyLevel_MySolutions/assets/117463446/702526fe-efa5-4284-bec7-1d6d3d69386e)
+
+
 
 
 
