@@ -33,6 +33,10 @@ This is just information sharing for whom visited to my github page.
 `[10]StringMerger`
 ![image](https://github.com/Thein-Naing/Coderbyte_EasyLevel_MySolutions/assets/117463446/6f99145d-f273-4988-b0ae-9e8eb329dd2c)
 
+1`[11]StringPeriods`
+![image](https://github.com/Thein-Naing/Coderbyte_EasyLevel_MySolutions/assets/117463446/75a25695-1374-46d5-84b8-9a36bfaddec0)
+
+
 
 
 
