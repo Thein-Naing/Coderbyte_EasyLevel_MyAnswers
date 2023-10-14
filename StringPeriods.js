@@ -18,23 +18,23 @@ function StringPeriods(str) {
 
   // code goes here  
   
-  let longest = -1;
+  let longest = -1;                               // 1. initial state of longest substring shall be -1 as per given statement.
 
-  for (let i = 1; i < str.length - 1; i++) {
+  for (let i = 0; i < str.length - 1; i++) {      // 2. Use For Loop to determine if there is some substring that can be repeated more than one time to produce the input string exactly as it appears.
   
-      let subStr1 = str.slice(0, i+1)
-      let count = str.length / subStr1.length;
-      let subStr2 = ""
+      let subStrA = str.slice(0, i+1)             // 3. Use str.slice() method to create subStr1 which is started from str[0] (if str[i]=== a and str[i+1] === b then str1 === ab)
+      let count = str.length / subStrA.length;    // 4. Calculate how many times of repeated subStrA by dividing str.length by subStrA.length.
+      let subStrB = ""                            // 5. We have to find another subStrB which is repeated same as subStrA to create the final string.
 
-  for(let j = 0; j < count; j++) {    
-     subStr2 += subStr1
+  for(let j = 0; j < count; j++) {                // 6. Use nested For Loop again to determine subStrA is equal to subStrB by looping through numbers of count and update subStrB.
+     subStrB += subStrA
       } 
-    if (subStr2 === str) {
-      longest = subStr1
+    if (subStrA === str) {                        // 7. If there is no repeating case of subStrA, (meaning: subStrA is same as str) and then subStrA is the final string(longest).
+      longest = subStrA
     
     }
   }
-  return longest;
+  return longest;                               // 8. Return longest.
 }
 
 
