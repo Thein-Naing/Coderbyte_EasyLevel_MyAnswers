@@ -22,7 +22,7 @@ function StringPeriods(str) {
 
   for (let i = 0; i < str.length - 1; i++) {      // 2. Use For Loop to determine if there is some substring that can be repeated more than one time to produce the input string exactly as it appears.
   
-      let subStrA = str.slice(0, i+1)             // 3. Use str.slice() method to create subStr1 which is started from str[0] (if str[i]=== a and str[i+1] === b then str1 === ab)
+      let subStrA = str.slice(0, i+1)             // 3. Use str.slice() method to create subStr1 which is started from str[0] (if str[i]=== a and str[i+1] === b then strA === ab)
       let count = str.length / subStrA.length;    // 4. Calculate how many times of repeated subStrA by dividing str.length by subStrA.length.
       let subStrB = ""                            // 5. We have to find another subStrB which is repeated same as subStrA to create the final string.
 
