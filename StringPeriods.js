@@ -26,7 +26,7 @@ function StringPeriods(str) {
       let count = str.length / subStrA.length;    // 4. Calculate how many times of repeated subStrA by dividing str.length by subStrA.length.
       let subStrB = ""                            // 5. We have to find another subStrB which is repeated same as subStrA to create the final string.
 
-  for(let j = 0; j < count; j++) {                // 6. Use nested For Loop again to determine subStrA is equal to subStrB by looping through numbers of count and update subStrB.
+  for(let j = 0; j < count; j++) {                // 6. Use nested For Loop again to determine if subStrB is equal to subStrA by looping through numbers of count and update subStrB.
      subStrB += subStrA
       } 
     if (subStrB === str) {                        // 7. If there is no more repeating case of subStrA, (meaning: subStrB is same as str) and then subStrA is the final string(longest).
