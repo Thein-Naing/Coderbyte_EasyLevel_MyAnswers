@@ -29,7 +29,7 @@ function StringPeriods(str) {
   for(let j = 0; j < count; j++) {                // 6. Use nested For Loop again to determine subStrA is equal to subStrB by looping through numbers of count and update subStrB.
      subStrB += subStrA
       } 
-    if (subStrA === str) {                        // 7. If there is no repeating case of subStrA, (meaning: subStrA is same as str) and then subStrA is the final string(longest).
+    if (subStrB === str) {                        // 7. If there is no repeating case of subStrA, (meaning: subStrB is same as str) and then subStrA is the final string(longest).
       longest = subStrA
     
     }
