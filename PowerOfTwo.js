@@ -28,7 +28,7 @@ function PowersofTwo(num) {
     finalNum = finalNum / 2;
   }
 
- return finalNum === 2 ? true : num === 2 ? true : false;    // 4. If finalNum = 2 then return true, num === 2 then return true, otherwise return false.
+ return finalNum === 2 ? true : num === 2 ? true : false;    // 4. If the last finalNum = 2 then return true, for single digit input, num === 2 then return true, otherwise return false.
   
 }
    
