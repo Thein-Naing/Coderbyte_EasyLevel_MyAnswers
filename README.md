@@ -37,7 +37,8 @@ This is just information sharing for whom visited to my github page.
 ![image](https://github.com/Thein-Naing/Coderbyte_EasyLevel_MySolutions/assets/117463446/75a25695-1374-46d5-84b8-9a36bfaddec0)
 
 `[12]PowerOfTwo`
-![image](https://github.com/Thein-Naing/Coderbyte_EasyLevel_MySolutions/assets/117463446/492bee4c-db6b-4449-bbb9-ba2cb55e4ec4)
+![image](https://github.com/Thein-Naing/Coderbyte_EasyLevel_MySolutions/assets/117463446/926ca3bb-e854-48ce-b655-27d6d0da3339)
+
 
 
 
