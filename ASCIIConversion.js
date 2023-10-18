@@ -24,7 +24,7 @@ function ASCIIConversion(str) {
         }    
     }
   // code goes here  
-  return result.join("")                          // 5. Retirn result stack.
+  return result.join("")                          // 5. Rejoin and return result stack.
          
 }
    
