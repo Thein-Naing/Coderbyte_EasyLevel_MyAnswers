@@ -16,7 +16,7 @@ function ASCIIConversion(str) {
   // code goes here  
   let result = [];                                // 1. Initial state of result shalee be empty stack.
 
-    for(let i = 0; i < str.length; i++){          // 2. Use For Loop to iterate through each every characters including white space to check  it is a character.
+    for(let i = 0; i < str.length; i++){          // 2. Use For Loop to iterate through each every characters including white space to check it is a character with str.charAt() method.
         if(str.charAt(i) !== " "){
             result.push(str.charCodeAt(i));       // 3. If character is not a white space, then there is a character and add it's character code value to stack using charCodeAt() & arr.push() methods.
         } else {                           
