@@ -14,7 +14,7 @@ string manipulation regular expression back-end mobile Android iOS  */
 function ASCIIConversion(str) { 
 
   // code goes here  
-  let result = [];                                // 1. Initial state of result shalee be empty stack.
+  let result = [];                                // 1. Initial state of result shall be empty stack.
 
     for(let i = 0; i < str.length; i++){          // 2. Use For Loop to iterate through each every characters including white space to check it is a character with str.charAt() method.
         if(str.charAt(i) !== " "){
