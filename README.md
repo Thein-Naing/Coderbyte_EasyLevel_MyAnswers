@@ -45,6 +45,9 @@ This is just information sharing for whom visited to my github page.
 `[14]RemoveBrackets`
 ![image](https://github.com/Thein-Naing/Coderbyte_EasyLevel_MySolutions/assets/117463446/c7a49353-0636-41e9-a32a-36ff4c09e947)
 
+`[15]SimpleEven`
+![image](https://github.com/Thein-Naing/Coderbyte_EasyLevel_MySolutions/assets/117463446/35e09685-e79f-4dc2-90e4-0d60efa47fcd)
+
 
 
 
