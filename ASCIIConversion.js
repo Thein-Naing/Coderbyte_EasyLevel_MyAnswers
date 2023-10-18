@@ -16,11 +16,11 @@ function ASCIIConversion(str) {
   // code goes here  
   let result = [];                                // 1. Initial state of result shall be empty stack.
 
-    for(let i = 0; i < str.length; i++){          // 2. Use For Loop to iterate through each every characters including white space to check it is a character with str.charAt() method.
+    for(let i = 0; i < str.length; i++){          // 2. Use For Loop to iterate through each every characters including white space to check if it is a character with str.charAt() method.
         if(str.charAt(i) !== " "){
             result.push(str.charCodeAt(i));       // 3. If character is not a white space, then there is a character and add it's character code value to stack using charCodeAt() & arr.push() methods.
         } else {                           
-            result.push(" ");                     // 4. Otherwise there will be a white space and add a white to stack.
+            result.push(" ");                     // 4. Otherwise there will be a white space and add a white space to stack.
         }    
     }
   // code goes here  
