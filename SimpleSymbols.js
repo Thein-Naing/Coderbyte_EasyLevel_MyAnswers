@@ -14,7 +14,7 @@ function SimpleSymbols(str) {
   //1. loop through index of i from i = 0.
    for (let i = 0; i < str.length; i++) {
   
-  /* 2. declare if statement and use reges str.match to match all characters from a to z with 
+  /* 2. declare if statement and use regex str.match to match all characters from a to z with 
   flag g:(to perform a global search) and flag:i(to ignore upper case & lower case).*/
   if (str[i].match(/[a-z]/gi)) {
 
