@@ -19,7 +19,7 @@ function SimpleSymbols(str) {
   if (str[i].match(/[a-z]/gi)) {
 
    //3. use another if statement for surrounding with "+" sign. 
-  if (str[i+1] === "+"  && str[i-1] === "+") {  //3A. use && operator for backward and forward cases of str[i] are same; meaning: both are "+" sign.
+  if (str[i+1] === "+"  && str[i-1] === "+") {  //3A. use && operator and check characters at backward position and forward position of str[i] are same; meaning: both are "+" sign.
  
   //4. then return true otherwise return false.
   return true; 
