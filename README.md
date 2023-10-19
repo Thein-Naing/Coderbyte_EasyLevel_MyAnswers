@@ -54,6 +54,10 @@ This is just information sharing for whom visited to my github page.
 `[17] StringChanges`
 ![image](https://github.com/Thein-Naing/Coderbyte_EasyLevel_MySolutions/assets/117463446/c17d1a8f-32bb-4377-968c-7fd8245c1729)
 
+`[18]DistinctCharacters`
+![image](https://github.com/Thein-Naing/Coderbyte_EasyLevel_MySolutions/assets/117463446/b5d7e60a-47cb-4c40-96b8-acd31dc39fc2)
+
+
 
 
 
