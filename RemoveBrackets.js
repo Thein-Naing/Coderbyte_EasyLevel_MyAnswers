@@ -23,7 +23,7 @@ function RemoveBrackets(str) {
     } else if (str[i] === ")" && count === 0) {    /* 4. Given Statement: The answer could potentially be 0, and there will always be at least one set of matching brackets in the string.
                                                          If this statement is true(Meaning: count === 0) and unmatched character is ")", then update count.(Meaning: count the close brackets.) */   
       count += 1;                                            
-    } else {                                       // 5. Otherwise brackets are correctly matched and decrement the count.
+    } else {                                       // 5. Otherwise brackets are not correctly matched like  ")(" , ")(()",  )")(()" and decrement the count.
       count -= 1;
     }
   }
