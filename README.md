@@ -48,6 +48,10 @@ This is just information sharing for whom visited to my github page.
 `[15]SimpleEven`
 ![image](https://github.com/Thein-Naing/Coderbyte_EasyLevel_MySolutions/assets/117463446/35e09685-e79f-4dc2-90e4-0d60efa47fcd)
 
+`[16] PowerSetCount`
+![image](https://github.com/Thein-Naing/Coderbyte_EasyLevel_MySolutions/assets/117463446/9d8f48d1-5850-4fb7-8f6e-3f63f6510d51)
+
+
 
 
 
