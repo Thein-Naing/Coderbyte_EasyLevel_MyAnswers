@@ -57,6 +57,10 @@ This is just information sharing for whom visited to my github page.
 `[18]DistinctCharacters`
 ![image](https://github.com/Thein-Naing/Coderbyte_EasyLevel_MySolutions/assets/117463446/b5d7e60a-47cb-4c40-96b8-acd31dc39fc2)
 
+`[19]ThreeNumbers`
+![image](https://github.com/Thein-Naing/Coderbyte_EasyLevel_MySolutions/assets/117463446/b3cd391a-4e2f-4e46-abba-08235788b737)
+
+
 
 
 
