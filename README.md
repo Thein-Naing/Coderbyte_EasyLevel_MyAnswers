@@ -58,7 +58,8 @@ This is just information sharing for whom visited to my github page.
 ![image](https://github.com/Thein-Naing/Coderbyte_EasyLevel_MySolutions/assets/117463446/b5d7e60a-47cb-4c40-96b8-acd31dc39fc2)
 
 `[19]ThreeNumbers`
-![image](https://github.com/Thein-Naing/Coderbyte_EasyLevel_MySolutions/assets/117463446/d38871b5-8cf9-4d91-970c-a8a09df906b4)
+![image](https://github.com/Thein-Naing/Coderbyte_EasyLevel_MySolutions/assets/117463446/bd021b40-382d-48cf-a265-92441ffde3b3)
+
 
 
 
