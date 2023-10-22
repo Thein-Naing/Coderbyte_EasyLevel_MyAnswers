@@ -23,7 +23,7 @@ function OffLineMinimum(strArr) {
 
   for (let i = 0; i < strArr.length; i++) {         // 3. Use For Loop to iterate through each every charater of array to check if it is an integer or an "E".      
        
-    if (strArr[i] !== "E") {                        // 4. If an integer is encountered, then store it in integers array by using arr.push() method..
+    if (strArr[i] !== "E") {                        // 4. If an integer is encountered, then store it in integers array by using arr.push() method.
         integers.push(strArr[i]);
       
     } else {                                        /* 5. If an "E" is encountered, then remove the smallest integer from integers array and store it in the stack
