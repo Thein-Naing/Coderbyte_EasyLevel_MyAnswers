@@ -27,7 +27,7 @@ function OffLineMinimum(strArr) {
         integers.push(strArr[i]);
       
     } else {                                        /* 5. If an "E" is encountered, then remove the smallest integer from integers array and store it in the stack
-                                                          by using arr.pop() method and arr.push() mrthod.*/
+                                                          by using arr.sort() method, arr.pop() method and arr.push() method.*/
         stack.push(integers.sort((a, b) => b - a).pop());
     }
   }
