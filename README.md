@@ -63,6 +63,10 @@ This is just information sharing for whom visited to my github page.
 `[20]HDistances`
 ![image](https://github.com/Thein-Naing/Coderbyte_EasyLevel_MySolutions/assets/117463446/d694a6bf-d468-4c01-9769-2e5f7d537e55)
 
+`[21]OfflineMinimum`
+![image](https://github.com/Thein-Naing/Coderbyte_EasyLevel_MySolutions/assets/117463446/c9d11422-f034-4913-b7ae-2f7c5904fd6a)
+
+
 
 
 
