@@ -18,9 +18,25 @@ string manipulation regular expression */
 function ThreeNumbers(str) { 
 
   // code goes here  
+  
+  /*       1. Given Statement: The integers can appear anywhere in the word, but they cannot be all adjacent to each other.
+              (/\d\d\d/) === three numbers in a row 
+              So return false if  words[i].match(/\d\d\d/)
+              
+           2. Given Statement: determine if exactly three unique, single-digit integers occur within each word in the string.                                                           
+              (!/[^\[D*\d\D*\d\D*\d\D*$]/) !== non digit character(D*) + digit(\d\) + non digit character(D*) + digit (\d\) + non digit character(D*) + digit(\d\)
+              So return false if  words[i].match(!/[^\[D*\d\D*\d\D*\d\D*$]/)
+              
+           3. Given STatement: If every word contains exactly 3 unique integers somewhere within it, then return the string true. Otherwise return the string false.            
+              (/(\d).*\1/) === more than 3 numbers in word  
+              So return false if  words[i].match(/(\d).*\1/).  */    
+                               
  
-  words = str.split(" ");
-  // console.log(words);
+    words = str.split("  ");     /* 4. Divide the given string into an ordered array of words using arr.split(" ") method and  
+                                       make one white space between double quoations marks. */
+  
+                                 // console.log(words); ----> ['2hell6o3', 'wor6l7d2']
+  
     for (let i = 0; i < words.length; i++) {
    
     if (words[i].match(!/[^\[D*\d\D*\d\D*\d\D*$]/) || words[i].match(/(\d).*\1/) || words[i].match(/\d\d\d/)) {
