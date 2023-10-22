@@ -67,7 +67,7 @@ This is just information sharing for whom visited to my github page.
 ![image](https://github.com/Thein-Naing/Coderbyte_EasyLevel_MySolutions/assets/117463446/c9d11422-f034-4913-b7ae-2f7c5904fd6a)
 
 `[22]NumberStream`
-![image](https://github.com/Thein-Naing/Coderbyte_EasyLevel_MySolutions/assets/117463446/5e2ec1cf-3003-4d6b-912a-e7ba984a0036)
+
 
 
 
