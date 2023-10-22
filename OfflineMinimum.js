@@ -32,7 +32,7 @@ function OffLineMinimum(strArr) {
     }
   }
 
-  return stack.join(",");                           // 6. Rejoin and return the stack.
+  return stack.join(",");                           // 6. Rejoin integers with "," sign and return the stack.
 }
 
 // keep this function call here
