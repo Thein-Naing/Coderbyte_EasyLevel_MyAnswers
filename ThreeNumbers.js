@@ -35,7 +35,7 @@ function ThreeNumbers(str) {
     words = str.split("  ");     /* 4. Divide the given string into an ordered array of words using arr.split(" ") method and  
                                        make one white space between double quoations marks. */
   
-                                 // console.log(words); ----> ['2hell6o3', 'wor6l7d2']
+                                 // console.log(words); ----> ['2a3b5', 'w1o2rl3d', 'g1gg92']
   
     for (let i = 0; i < words.length; i++) {
    
