@@ -19,7 +19,7 @@ array searching sorting  */
 function OffLineMinimum(strArr) {
   // code goes here
   let stack = [];                                   // 1. Define a stack to store only the smallest integers.
-  let integers = [];                                  // 2. Define an empty array to store all integers as we loop through array.
+  let integers = [];                                // 2. Define an empty array to store all integers as we loop through array.
 
   for (let i = 0; i < strArr.length; i++) {         // 3. Use For Loop to iterate through each every charater of array to check if it is an integer or an "E".      
        
