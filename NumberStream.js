@@ -16,15 +16,9 @@ string manipulation searching data science back-end Amazon */
 function NumberStream(str) { 
 
   // code goes here  
-  let patterns = [/22/,/333/, /4444/ ,/55555/,/666666/, /7777777/, /88888888/, /999999999/];
+
    
-  for (i = 0;i <patterns.length; i++)  {
-       if (str.match(patterns[i])) 
-       return true;
-    
-       }
-  
-      return false;
+
 
 }
    
