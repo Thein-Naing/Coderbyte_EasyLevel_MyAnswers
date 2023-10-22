@@ -39,7 +39,7 @@ function ThreeNumbers(str) {
   
     for (let i = 0; i < words.length; i++) {
    
-    if (words[i].match(!/[^\[D*\d\D*\d\D*\d\D*$]/) || words[i].match(/(\d).*\1/) || words[i].match(/\d\d\d/)) {
+    if (words[i].match(/\d\d\d/) || words[i].match(/(\d).*\1/) || words[i].match(!/[^\[D*\d\D*\d\D*\d\D*$]/)) { 
     return false;
        } 
     }
