@@ -15,14 +15,14 @@ array searching */
 function HDistance(strArr) { 
 
   // code goes here                                            // Given Statement: The strArr which will only contain two strings of equal length. So we don't need to use nested array.
-  let count = 0;  
-  for (let i = 0; i < strArr[0].length; i++) {                 // 1. Use For Loop to check character of words1 !== character of words2.
-     if ( strArr[1][i] !== strArr[0][i]) {                     // 2. If this is the case, increment the count by 1 for every characters we found.
-          count += 1;                                          // 3. update the count.
+  let count = 0;                                               // 1. Initial state of count shall be "zero".
+  for (let i = 0; i < strArr[0].length; i++) {                 // 2. Use For Loop to check character of words1 !== character of words2.
+     if ( strArr[1][i] !== strArr[0][i]) {                     // 3. If this is the case, increment the count by 1 for every characters we found.
+          count += 1;                                          // 4. update the state of the count.
     
      } 
    }
-    return count;                                              // 4. Return count.
+    return count;                                              // 5. Return count.
   }
    
 // keep this function call here 
