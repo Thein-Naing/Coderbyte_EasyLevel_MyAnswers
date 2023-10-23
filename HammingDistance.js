@@ -16,11 +16,11 @@ array searching Facebook Flutter */
 function HammingDistance(strArr) { 
 
   // code goes here  
- let count = 0;                                               // 1. Initial state of count shalee be "zero".
+ let count = 0;                                               // 1. Initial state of count shall be "zero".
     
     for (let i = 0; i < strArr[0].length; i++) {              // 2.Loop through each every character of the words and check to see if each corresponding character from both words matches up.
-                                                              // 3. Both words string will always equal length.
-     if (strArr[0][i] !== strArr[1][i]) {                     // 3. If say so, then update the count.
+                                                              // 3. Given Statement: Both words string will always equal length. So we don't need nested loop.
+     if (strArr[0][i] !== strArr[1][i]) {                     // 3. If each corresponding character from both words are not matched, then update the count.
             count += 1;
         }
     }
