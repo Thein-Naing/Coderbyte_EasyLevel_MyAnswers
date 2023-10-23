@@ -66,7 +66,9 @@ This is just information sharing for whom visited to my github page.
 `[21]OfflineMinimum`
 ![image](https://github.com/Thein-Naing/Coderbyte_EasyLevel_MySolutions/assets/117463446/c9d11422-f034-4913-b7ae-2f7c5904fd6a)
 
-`[22]NumberStream`
+`[22]HammingDistance`
+![image](https://github.com/Thein-Naing/Coderbyte_EasyLevel_MySolutions/assets/117463446/64007a2e-5a64-4cf2-9a26-e381bc1925b0)
+`
 
 
 
