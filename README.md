@@ -68,6 +68,10 @@ This is just information sharing for whom visited to my github page.
 
 `[22]HammingDistance`
 ![image](https://github.com/Thein-Naing/Coderbyte_EasyLevel_MySolutions/assets/117463446/64007a2e-5a64-4cf2-9a26-e381bc1925b0)
+
+`[23]NonRepeatingCharacter`
+![image](https://github.com/Thein-Naing/Coderbyte_EasyLevel_MySolutions/assets/117463446/f11eef90-ec9c-4239-b2de-16393da59639)
+
 `
 
 
