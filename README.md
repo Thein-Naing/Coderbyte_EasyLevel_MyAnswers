@@ -72,6 +72,10 @@ This is just information sharing for whom visited to my github page.
 `[23]NonRepeatingCharacter`
 ![image](https://github.com/Thein-Naing/Coderbyte_EasyLevel_MySolutions/assets/117463446/f11eef90-ec9c-4239-b2de-16393da59639)
 
+`[24]Onedecremented`
+![image](https://github.com/Thein-Naing/Coderbyte_EasyLevel_MySolutions/assets/117463446/e9c21e8d-bcd5-47c9-8940-725b6a914937)
+
+
 `
 
 
