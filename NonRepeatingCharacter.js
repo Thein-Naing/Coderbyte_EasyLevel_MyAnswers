@@ -30,3 +30,18 @@ function NonrepeatingCharacter(str) {
    
 // keep this function call here 
 console.log(NonrepeatingCharacter(readline()));
+
+// Alternative method
+
+function NonrepeatingCharacter(str) {
+  for (let i = 0; i < str.length; i++) { 
+    if (str.indexOf(str[i) === i && str.indexOf(str[i], i + 1) === -1) {
+      return str[i];
+    }
+  }
+  return -1;
+}
+
+// keep this function call here 
+console.log(NonrepeatingCharacter(readline()));
+
