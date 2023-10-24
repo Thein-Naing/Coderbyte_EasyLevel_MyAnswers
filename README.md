@@ -78,6 +78,10 @@ This is just information sharing for whom visited to my github page.
 `[25]AlphabetSearching.js`
 ![image](https://github.com/Thein-Naing/Coderbyte_EasyLevel_MySolutions/assets/117463446/c643d053-e8c0-4182-acab-578a9de6ce42)
 
+`[26]ChangingSequences`
+![image](https://github.com/Thein-Naing/Coderbyte_EasyLevel_MySolutions/assets/117463446/33412bc4-5126-4e5c-9776-c0c5e66b5ab2)
+
+
 
 
 
