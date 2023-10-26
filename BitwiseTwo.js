@@ -19,7 +19,7 @@ function BitwiseTwo(strArr) {
 
     let result = "";                                        // 1.Initial state of result shall be empty string.
 
-    for (var i = 0; i < strArr[0].length; i++) {            // 2.Loop throuh arr1 to check each every character in arr1 and arr2 are defined or not
+    for (let i = 0; i < strArr[0].length; i++) {            // 2.Loop throuh arr1 to check each every character in arr1 and arr2 are defined or not
     if (strArr[0] [i] === "1" && strArr[1][i] === "1") {
        result  += "1"                                       // 3.If say so, then update the result by incrementing "1". 
         } else {
