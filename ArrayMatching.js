@@ -19,19 +19,19 @@ array */
 function ArrayMatching(strArr) { 
 
   // code goes here  
-let result = [];
-let arr1 = strArr[0].match(/[0-9]+/gi);
-let arr2 = strArr[1].match(/[0-9]+/gi);
-let longest = Math.max(arr1.length, arr2.length);
+let sum = [];                                                   	// 1. Initiate a stack to hold sum of elements.
+let arr1 = strArr[0].match(/[0-9]+/gi);                            	// 2. Extract integer arr1 from given strArr using arr.match() with regex.
+let arr2 = strArr[1].match(/[0-9]+/gi);                            	// 3. Extract integer arr2 from given strArr using arr.match() with regex.
+let longest = Math.max(arr1.length, arr2.length);                  	// 4. Find longest arr of arr1 and arr2 using Math.max() method.
 
-    for (var i = 0; i < longest; i++) {	
-	     if (arr1[i] === undefined ||  arr2[i] === undefined) {
-       result[i] = Number(arr1[i]) || Number(arr2[i]);
+    for (var i = 0; i < longest; i++) {	                                // 5. Loop throuh longest arr to check each every character in arr1 and arr2 are defined or not.
+	     if (arr1[i] === undefined ||  arr2[i] === undefined) {     // 6. If not so, then sum will be either digit of arr1 or arr2. 
+       sum[i] = Number(arr1[i]) || Number(arr2[i]);
 	  }  else {
-       result[i] = Number(arr1[i]) + Number(arr2[i]);
+       sum[i] = Number(arr1[i]) + Number(arr2[i]);                      // 7. Otherwise sum will be addition of each digit from arr1 and arr2. Use Number() method to get digits.
     }
   }
-   return result.join("-")
+   return sum.join("-")                                                 // 8. Rejoin with ("-") and return it.
 }
    
 // keep this function call here 
