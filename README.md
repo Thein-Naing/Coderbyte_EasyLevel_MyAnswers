@@ -90,6 +90,10 @@ This is just information sharing for whom visited to my github page.
 `[29]BitwiseTwo`
 ![image](https://github.com/Thein-Naing/Coderbyte_EasyLevel_MySolutions/assets/117463446/f93d926c-6415-495e-befc-3d782a5cd6a0)
 
+1[30]OtherProducts`
+![image](https://github.com/Thein-Naing/Coderbyte_EasyLevel_MySolutions/assets/117463446/f5b7e0f9-fa55-4a67-882f-f768966484c8)
+
+
 
 
 
