@@ -9,3 +9,17 @@ Output: 181
 
 Tags
 searching */
+
+function NextPalindrome(num) { 
+
+  // code goes here  
+
+ let word = (num + 1)                                                              // 1. Define a variable called word and set its initial value of next palindrome num shall be  num + 1. 
+    while (word.toString().split('').reverse().join('') !== word.toString())       // 2. Specify true or false for while loop.
+        word++;                                                                    // 3. If condition is met, then update word.
+    return word;                                                                   // 4. Return word.
+
+}
+   
+// keep this function call here 
+console.log(NextPalindrome(readline()));
