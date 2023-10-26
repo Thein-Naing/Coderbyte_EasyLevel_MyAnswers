@@ -87,6 +87,10 @@ This is just information sharing for whom visited to my github page.
 `[28]ArrayMatching`
 ![image](https://github.com/Thein-Naing/Coderbyte_EasyLevel_MySolutions/assets/117463446/93c0842b-0fa0-4fec-999a-b36037b7e986)
 
+`[29]BitwiseTwo`
+![image](https://github.com/Thein-Naing/Coderbyte_EasyLevel_MySolutions/assets/117463446/f93d926c-6415-495e-befc-3d782a5cd6a0)
+
+
 
 
 
