@@ -99,6 +99,10 @@ This is just information sharing for whom visited to my github page.
 `[32]PalindromeSwapper`
 ![image](https://github.com/Thein-Naing/Coderbyte_EasyLevel_MySolutions/assets/117463446/f30f7497-c59c-4008-bab7-65e362d9cc9b)
 
+`[33]NextPalindrome`
+![image](https://github.com/Thein-Naing/Coderbyte_EasyLevel_MySolutions/assets/117463446/755859cf-5914-4328-92e8-b168ffbfb6a5)
+
+
 
 
 
