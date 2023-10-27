@@ -22,3 +22,19 @@ function FindIntersection(strArr) {
 }
    // keep this function call here 
 console.log(FindIntersection(readline()));
+
+// Alternative Method:
+function FindIntersection(strArr) { 
+  let stack = [];
+ arr1 = strArr[0].split(", ");
+ arr2 = strArr[1].split(", ");
+
+for(let i = 0; i < arr1.length; i++ ) {
+    if (arr2.includes(arr1[i])) {
+      stack.push(arr1[i]);
+    }
+  }
+  return stack.length === 0 ? false : stack.toString();
+}
+// keep this function call here 
+console.log(FindIntersection(readline()));
