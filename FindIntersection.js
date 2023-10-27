@@ -26,15 +26,15 @@ console.log(FindIntersection(readline()));
 // Alternative Method:
 function FindIntersection(strArr) { 
   let stack = [];
- arr1 = strArr[0].split(", ");
- arr2 = strArr[1].split(", ");
+ arr1 = strArr[0].split(", ");              // 1. Extract arr1 from given strArr using arr.split("") method with one colon sign and 1 white space for comma-separated numbers in arr.
+ arr2 = strArr[1].split(", ");              // 2. Extract arr2 from given strArr using arr.split("") method with one colon sign and 1 white space for comma-separated numbers in arr.
 
-for(let i = 0; i < arr1.length; i++ ) {
-    if (arr2.includes(arr1[i])) {
+for(let i = 0; i < arr1.length; i++ ) {     // 3. Loop through each every character of arr1 or arr2.
+    if (arr2.includes(arr1[i])) {           // 4. If arr1[1] includes in arr2 or arr2[i] includes in arr1, then we found the intersection and add it to arr1 or arr2.
       stack.push(arr1[i]);
     }
   }
-  return stack.length === 0 ? false : stack.toString();
+  return stack.length === 0 ? false : stack.toString();    // 5. If stack length is not zero, then convert stack to string and return.
 }
 // keep this function call here 
 console.log(FindIntersection(readline()));
