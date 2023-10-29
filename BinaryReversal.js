@@ -14,8 +14,8 @@ Tags
 string manipulation */
 
 function BinaryReversal(str) { 
-  let binary = parseInt(str).toString(2).split("").reverse(); // 1. convert given int string to binary stingr, split it and reverse it.
-  while(binary.length % 8 !== 0) {      /* 2. Add 0 into binary string to make blocks of 8 bits using While Loop. 
+  let binary = parseInt(str).toString(2).split("").reverse(); // 1. convert given int string to binary string, split it and reverse it.
+  while(binary.length % 8 !== 0) {      /* 2. Add "0" into binary string to make blocks of 8 bits using While Loop. 
                                               Meaning: eg. for 11110100 , declare a condition, here is 8 bits, so binary.length must be divisible by 8).Otherwise add "0" to binary string.
     binary.push("0");                                   */
   }
