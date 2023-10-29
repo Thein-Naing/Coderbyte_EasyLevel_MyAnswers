@@ -108,6 +108,10 @@ This is just information sharing for whom visited to my github page.
 `[35]ABCheck`
 ![image](https://github.com/Thein-Naing/Coderbyte_EasyLevel_MySolutions/assets/117463446/f7601cef-b2ba-4d35-af2d-c40cc4a7bef4)
 
+`[36]BinaryReversal`
+![image](https://github.com/Thein-Naing/Coderbyte_EasyLevel_MySolutions/assets/117463446/34c83299-f10a-43b4-bba3-140315458f6c)
+
+
 
 
 
