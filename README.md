@@ -111,6 +111,9 @@ This is just information sharing for whom visited to my github page.
 `[36]BinaryReversal`
 ![image](https://github.com/Thein-Naing/Coderbyte_EasyLevel_MySolutions/assets/117463446/34c83299-f10a-43b4-bba3-140315458f6c)
 
+`[37]TriangleRow`
+![image](https://github.com/Thein-Naing/Coderbyte_EasyLevel_MySolutions/assets/117463446/b7eb549a-f871-4491-9060-81d8f744fb59)
+
 
 
 
