@@ -115,7 +115,8 @@ This is just information sharing for whom visited to my github page.
 ![image](https://github.com/Thein-Naing/Coderbyte_EasyLevel_MySolutions/assets/117463446/b7eb549a-f871-4491-9060-81d8f744fb59)
 
 `[38]ClosestEnemyI.js
-![image](https://github.com/Thein-Naing/Coderbyte_EasyLevel_MySolutions/assets/117463446/fe863592-ca6a-4006-832a-c530fd3a53e3)
+![image](https://github.com/Thein-Naing/Coderbyte_EasyLevel_MySolutions/assets/117463446/2dcee135-5d00-4df0-a1c0-40e3a35be3d0)
+
 
 
 
