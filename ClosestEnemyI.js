@@ -15,20 +15,11 @@ Output: 1
 Tags
 array searching */
 
-Notes: /* findIndex() method: which allows you to find the first element in an array that satisfies a provided testing function.
-          The following example returns the index of the first occurrence of the number 2 in the positionss array:
-                  let positions = [1, 5, 2, 8, 10, 2];
-                  let index = positions.findIndex(position => position === 2);
-                  console.log(index);
-                  Output: 2    */
-
 function ClosestEnemy(arr) { 
 
   // code goes here  
 
-let range = arr.findIndex(location => {                                                       // 1. Find the coordinates(location) of the 1(soldier)
-          return location === 1;
-  });
+let range = arr.indexOf(1);                                                                   // 1. Find the coordinates(location) of the 1(soldier)
 for (let i = 1; i <arr.length; i++) {                                                         // 2.Find the paths to 2(enemy) from soldier, left or right.
 if (arr[range + i] === 2 || arr[range - i] === 2) {
           return i;                                                                           // 3.If fount index of path from range, return  i.
