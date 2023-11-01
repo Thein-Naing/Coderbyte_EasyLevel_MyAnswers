@@ -32,7 +32,7 @@ return 0;
 let range = arr.findIndex(location => {                                                       // 2. Find the coordinates(location) of the 1(soldier)
 return location === 1;
   });
-for (let i = 1; i <arr.length; i++) {                                                         // 3.Find the paths to 2(enemy) from range , left or right.
+for (let i = 1; i <arr.length; i++) {                                                         // 3.Find the paths to 2(enemy) from soldier, left or right.
 if (arr[range + i] === 2 || arr[range - i] === 2) {
 return i;                                                                                     // 4.If fount index of path from range, return  i.
     }
