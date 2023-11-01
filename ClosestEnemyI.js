@@ -26,18 +26,15 @@ function ClosestEnemy(arr) {
 
   // code goes here  
 
-if (!arr.includes(2)) {                                                                       // 1. Return 0 if there is no 2(enemy) in the array.
-return 0;
-  }
-let range = arr.findIndex(location => {                                                       // 2. Find the coordinates(location) of the 1(soldier)
-return location === 1;
+let range = arr.findIndex(location => {                                                       // 1. Find the coordinates(location) of the 1(soldier)
+          return location === 1;
   });
-for (let i = 1; i <arr.length; i++) {                                                         // 3.Find the paths to 2(enemy) from soldier, left or right.
+for (let i = 1; i <arr.length; i++) {                                                         // 2.Find the paths to 2(enemy) from soldier, left or right.
 if (arr[range + i] === 2 || arr[range - i] === 2) {
-return i;                                                                                     // 4.If fount index of path from range, return  i.
+          return i;                                                                                     // 3.If fount index of path from range, return  i.
     }
   }
-return range;                                                                                 // 5. return range.
-  
+          return arr.includes(2) ? range : 0;                                                                     // 4. return range.
+
 }
 console.log(ClosestEnemy(readline()));
