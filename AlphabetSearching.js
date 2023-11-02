@@ -23,11 +23,14 @@ console.log(AlphabetSearching(readline()))
 // ALternative method:
 
 function AlphabetSearching(str) {                                                                
-return str.match(/[a-z]/gi).filter((current, index) => str.indexOf(current) === index).length === 26 ? true : false ;    
+
+        str = str.match(/[a-z]/gi);
+        return [...new Set(str)].length === 26 ? true : false;
 }
                                              // 1. Check each every character in given str exist in English alphabet using arr.match() method with regex( /[a-z]/).
                                              /* 2. Use arr.filter() method to filter each every character with index and make sure lastIndexOf number of current character will be current index.
-                                                   Meaning: We will count only one time for repeated characters by using arr.lastIndexOf() method call on current character. */   
+                                                   Meaning: We will count only one time for repeated characters by using arr.lastIndexOf() method call on current character. 
+                                                   OR Use str = [...new Set(str)] method to update the string by deleting duplicate characters from given string. */   
                                              // 3. If updated str length  is equal to 26, then true otherwise false and return str.
            
 // keep this function call here 
