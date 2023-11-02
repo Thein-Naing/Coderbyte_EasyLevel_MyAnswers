@@ -15,7 +15,8 @@ string manipulation searching */
 
 function AlphabetSearching(str) {    
   // code goes here  
-return str.match(/[a-z]/gi).filter((current, index) => str.lastIndexOf(current) === index).length === 26 ? true : false; 
+  str = str.match(/[a-z]/gi);
+return str.filter((current, index) => str.lastIndexOf(current) === index).length === 26 ? true : false; 
 }
 // keep this function call here 
 console.log(AlphabetSearching(readline()))
