@@ -16,7 +16,7 @@ function OneDecremented(str) {
   // code goes here 
 
   let count = 0;                                 // 1. Initial state of count shall be "zero".
-  for (let i = 1; i < str.length; i++)           // 2. Use For Loop to check each every character of given string if a digit appears that is exactly one less than the previous digit.
+  for (let i = 1; i < str.length; i++) {         // 2. Use For Loop to check each every character of given string if a digit appears that is exactly one less than the previous digit.
   if (str[i-1]-str[i] === 1) {                   // 3. If it is true;
       count += 1;                                // 4. Update count . 
   }              
