@@ -123,6 +123,10 @@ This is just information sharing for whom visited to my github page.
 `[40]LargestPair`
 ![image](https://github.com/Thein-Naing/Coderbyte_EasyLevel_MySolutions/assets/117463446/4baa12bc-ebf9-43c4-aba3-2866c1335d08)
 
+`[41]ProductDigits`
+![image](https://github.com/Thein-Naing/Coderbyte_EasyLevel_MySolutions/assets/117463446/e3ae69b7-5b96-49ed-b58a-99c8e4469d9c)
+
+
 
 
 
