@@ -120,6 +120,10 @@ This is just information sharing for whom visited to my github page.
 `[39]StarRating`
 ![image](https://github.com/Thein-Naing/Coderbyte_EasyLevel_MySolutions/assets/117463446/f4ffe6ec-d841-46c1-bb61-35fc169267e1)
 
+`[40]LargestPair`
+![image](https://github.com/Thein-Naing/Coderbyte_EasyLevel_MySolutions/assets/117463446/4baa12bc-ebf9-43c4-aba3-2866c1335d08)
+
+
 
 
 
