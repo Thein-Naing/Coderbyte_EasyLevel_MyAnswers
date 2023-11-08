@@ -22,7 +22,7 @@ function LargestPair(num) {
   let largest = 0;
   for (let i = 0; i < num.length; i++) {           // 2. Loop through each every character of given num array to check if integer value of pair is gerater than the largest.
     if (parseInt(num[i] + num[i + 1]) > largest) {
-      largest = parseInt(num[i] + num[i + 1]);     // 3. If say so  then we found the largest number and return it. Use parseInt() method to change character to digital value.
+      largest = parseInt(num[i] + num[i + 1]);     // 3. If it is so then we found the largest pair and return it. Use parseInt() method to change character to digital value.
     }
   }
 
