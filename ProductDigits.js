@@ -15,15 +15,15 @@ math fundamentals searching */
 function ProductDigits(num) { 
 
   // code go here
-  let stack = [];
-    for(let i = 0; i <= num; i++) {
+  let stack = [];                     // 1. Initiate a stack to hold counts of digits.
+    for(let i = 0; i <= num; i++) {   // 2. It shall be nested loop. Loop through given number to check product of each character from outer loop and inner loop equal to given num.
        for (j = 0; j <= num; j++) {
-         if (i * j === num) 
+         if (i * j === num)           // 3. It it is so, then convert this character to digit using parseInt() method and add to stack.
          stack.push(parseInt(i.toString().length) + parseInt(j.toString().length));      
          
        }
     }
- return stack.sort((a,b)=> a - b)[0];
+ return stack.sort((a,b)=> a - b)[0];     // 4. Sort the stack and return the index 0 of stack.
     
 }
    
