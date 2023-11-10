@@ -33,7 +33,8 @@ function FindIntersection(strArr) {
             result.add(num)          
         }
     })
-    return [...result];
+    return [...result].length === 0 ? false : Array.from(result);
+  
     // keep this function call here 
 console.log(FindIntersection(readline()));
 
