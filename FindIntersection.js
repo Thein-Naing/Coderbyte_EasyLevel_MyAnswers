@@ -23,7 +23,24 @@ function FindIntersection(strArr) {
    // keep this function call here 
 console.log(FindIntersection(readline()));
 
-// Alternative Method:
+
+// Alternate Solution Using Set
+
+function FindIntersection(strArr) { 
+ let result = new Set();
+    arr2.map(num => {
+        if(arr1.includes(num)){
+            result.add(num)          
+        }
+    })
+    return [...result];
+    // keep this function call here 
+console.log(FindIntersection(readline()));
+
+  
+
+// Another Alternate Method:
+  
 function FindIntersection(strArr) { 
   let stack = [];
  arr1 = strArr[0].split(", ");              // 1. Extract arr1 from given strArr using arr.split("") method with one colon sign and 1 white space for comma-separated numbers in arr.
