@@ -126,6 +126,10 @@ This is just information sharing for whom visited to my github page.
 `[41]ProductDigits`
 ![image](https://github.com/Thein-Naing/Coderbyte_EasyLevel_MySolutions/assets/117463446/e3ae69b7-5b96-49ed-b58a-99c8e4469d9c)
 
+`[42]GroupTotals`
+![image](https://github.com/Thein-Naing/Coderbyte_EasyLevel_MySolutions/assets/117463446/c964a428-1d93-4332-b936-f065ddfb5447)
+
+
 
 
 
