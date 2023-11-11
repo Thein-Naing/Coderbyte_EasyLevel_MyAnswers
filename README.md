@@ -129,6 +129,10 @@ This is just information sharing for whom visited to my github page.
 `[42]GroupTotals`
 ![image](https://github.com/Thein-Naing/Coderbyte_EasyLevel_MySolutions/assets/117463446/e36817c7-5d6c-40ea-8ddf-015a4b3aa3bc)
 
+`[43]WaveSorting`
+![image](https://github.com/Thein-Naing/Coderbyte_EasyLevel_MySolutions/assets/117463446/a4b96cd2-5ae1-4337-8e3d-43f37300c84b)
+
+
 
 
 
