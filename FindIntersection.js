@@ -24,16 +24,18 @@ function FindIntersection(strArr) {
 console.log(FindIntersection(readline()));
 
 
-// Alternate Solution Using Set
+// Alternate Solution Using Set Method( more effective)
 
 function FindIntersection(strArr) { 
- let result = new Set();
-    arr2.map(num => {
+  let arr1 = strArr[0].split(', ')      // 1. Seperate 2 array from given strArr using arr.split(', ).
+  let arr2 = strArr[1].split(', ')
+  let result = new Set();               // 2. [., . ,. ,. ,] meaning: create new set to hold common member from arr1 and arr2. 
+    arr2.map(num => {                   // 3. Use arr.map() methon on either arr1 or arr2 and find the common num in both array. 
         if(arr1.includes(num)){
-            result.add(num)          
+            result.add(num)             // 4. If fount it, then add to new set.
         }
     })
-    return [...result].length === 0 ? false : Array.from(result);
+    return [...result].length === 0 ? false : Array.from(result);  // 5. If result set has members, then convert to arr and return it.
   
     // keep this function call here 
 console.log(FindIntersection(readline()));
