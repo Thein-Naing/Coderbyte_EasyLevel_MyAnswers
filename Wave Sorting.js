@@ -22,7 +22,7 @@ function WaveSorting(arr) {
    let result = [];                                                // 2. Initiate empty array to hold formatted key-value pairs.
 
 
-  arr.map(key => {(!obj[key])? obj[key] = 1 : obj[key]++});        // 3.add key to obj hash map.
+  arr.map(key => {(!obj[key])? obj[key] = 1 : obj[key]++});        // 3.add key to obj hash map. If there is no key in obj , add 1 else update key(increment key).
          
       for(let value in obj){                                       // 4.add value to obj hash map.
          result.push(obj[value]); 
