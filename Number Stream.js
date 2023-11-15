@@ -13,7 +13,22 @@ string manipulation searching data science back-end Amazon */
 function NumberStream(str) { 
 
   // code goes here  
-
+  /* Given Statement: which will contain the numbers 2 through 9,  
+     1. Use For Loop.
+     Given Statement: determine if there is a consecutive stream of digits of at least N length where N is the actual digit value. 
+     2.Convert given number to number string and create consecutive stream of digits using str.repeat() method.
+console.log(String(i) // 2, 3, 5, 6, 8, 9
+console.log(String(i).repeat(i))  // 22, 333, 4444, 55555, 666666, 7777777, 88888888, 999999999
+console.log(digits); 
+['22']
+['22', '333']
+['22', '333', '4444']
+['22', '333', '4444', '55555']
+['22', '333', '4444', '55555', '666666']
+['22', '333', '4444', '55555', '666666', '7777777']
+['22', '333', '4444', '55555', '666666', '7777777', '88888888']
+3. If consecutive stream of digits is found in given str , return true. Otherwise return false.*/
+  
 let digits = [];
     for (let i = 2; i <= 9; i++) {
         digits.push(String(i).repeat(i));    
