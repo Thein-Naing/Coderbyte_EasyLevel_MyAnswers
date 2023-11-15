@@ -132,6 +132,10 @@ This is just information sharing for whom visited to my github page.
 `[43]WaveSorting`
 ![image](https://github.com/Thein-Naing/Coderbyte_EasyLevel_MySolutions/assets/117463446/a4b96cd2-5ae1-4337-8e3d-43f37300c84b)
 
+`[44]Number Stream`
+![image](https://github.com/Thein-Naing/Coderbyte_EasyLevel_MySolutions/assets/117463446/0ba0cbb9-69cd-4f5a-8165-71f7283b4e9e)
+
+
 
 
 
