@@ -138,6 +138,10 @@ This is just information sharing for whom visited to my github page.
 `[45]Basic Roman Numerals`
 ![image](https://github.com/Thein-Naing/Coderbyte_EasyLevel_MySolutions/assets/117463446/069458fb-ec4a-411e-beff-d50db10427a0)
 
+`[46]Element Merger`
+![image](https://github.com/Thein-Naing/Coderbyte_EasyLevel_MySolutions/assets/117463446/16c69ee7-77c6-4be3-960f-5cda0bd84a87)
+
+
 
 
 
