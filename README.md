@@ -141,6 +141,10 @@ This is just information sharing for whom visited to my github page.
 `[46]Element Merger`
 ![image](https://github.com/Thein-Naing/Coderbyte_EasyLevel_MySolutions/assets/117463446/16c69ee7-77c6-4be3-960f-5cda0bd84a87)
 
+`[47]Rectangle Area`
+![image](https://github.com/Thein-Naing/Coderbyte_EasyLevel_MySolutions/assets/117463446/c8ef2ad1-5ed9-4a8d-bb72-c88726b3aedb)
+
+
 
 
 
