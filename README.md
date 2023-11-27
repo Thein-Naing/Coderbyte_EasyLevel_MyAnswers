@@ -144,6 +144,10 @@ This is just information sharing for whom visited to my github page.
 `[47]Rectangle Area`
 ![image](https://github.com/Thein-Naing/Coderbyte_EasyLevel_MySolutions/assets/117463446/c8ef2ad1-5ed9-4a8d-bb72-c88726b3aedb)
 
+`[48]Palindrome Creator`
+![image](https://github.com/Thein-Naing/Coderbyte_EasyLevel_MySolutions/assets/117463446/027d342c-79fc-4d5a-8938-f3e60930e430)
+
+
 
 
 
