@@ -1,7 +1,7 @@
 # Coderbyte_EasyLevel_MySolutions
 
 `This is just my answers for coderbyte challenge easy level codes from my coderbyte account. All challenges took me beyond 30 minutes to a couple of hours and sometimes a few days to solve and understand.  Please take note you can use any kind of programming languages to solve these challenges and feel free to use any kind of methods as you like and no need to same as my answers.
-This is just information sharing for whom visited to my github page.
+This is just information sharing for whom visited to my github page.https://github.com/Thein-Naing/Coderbyte_EasyLevel_MySolutions/tree/main
  `
 
 `[1]palindrome(another answer)`
@@ -146,6 +146,10 @@ This is just information sharing for whom visited to my github page.
 
 `[48]Palindrome Creator`
 ![image](https://github.com/Thein-Naing/Coderbyte_EasyLevel_MySolutions/assets/117463446/027d342c-79fc-4d5a-8938-f3e60930e430)
+
+`[49] Scale Balancing`
+![image](https://github.com/Thein-Naing/Coderbyte_EasyLevel_MySolutions/assets/117463446/12021d3a-64ec-4a41-aa09-e9366f21b9ae)
+
 
 
 
